@@ -287,7 +287,6 @@ $F = \sum_{\alpha}{\frac{K_{\alpha}}{2}(A_{\alpha} - A_{\alpha}^{(0)})^{2} ~ + ~
         \end{enumerate}
     \end{column}
 \end{columns}
-\footcitetext{farhadifar2007influence}
 \end{minipage}
 \end{beamerboxesrounded}
 }
@@ -305,10 +304,51 @@ $F = \sum_{\alpha}{\frac{K_{\alpha}}{2}(A_{\alpha} - A_{\alpha}^{(0)})^{2} ~ + ~
         \hspace{1cm}\flashmovie[auto=0,loop=1,controlbar=1,engine=flv-player,width=6cm,height=6cm]{Animation.flv}
     \end{column}
     \begin{column}{0.8\textwidth}
-        \begin{enumerate}
-        \item < 1-| alert@1 > Vertices change their position to guarantee the force balance equal to zero.
-        \item < 2-| alert@2 > Relaxation is finished once the length of the tissue remains \emph{steady} over 100 time steps ($\frac{sd(\sum_{\alpha}{L_{\alpha}})}{\bar{\sum_{\alpha}{L_{\alpha}}}} \apeq 0 $).
-        \end{enumerate}
+        \begin{itemize}
+        \item 1 - Vertices change their position to guarantee the force balance equal to zero.
+        \end{itemize}
+    \end{column}
+\end{columns}
+\end{minipage}
+\end{beamerboxesrounded}
+}
+
+
+%%tissue growth remarks
+\frame{\frametitle{Relaxation}
+\setbeamercolor{uppercol}{fg=black,bg=pink}
+\setbeamercolor{lowercol}{fg=black,bg=pink}
+\begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
+\begin{minipage}[t]{6.1cm}
+\begin{columns}
+    \begin{column}{\textwidth}
+        \hspace{1cm}\flashmovie[auto=0,loop=1,controlbar=1,engine=flv-player,width=6cm,height=6cm]{Animation.flv}
+    \end{column}
+    \begin{column}{0.8\textwidth}
+        \begin{itemize}
+        \item 2 - The position of the vertices is defined by a \emph{Verlet Function}\cite{Farhadifar} in which the accelleration is defined by the total force on the junctions of the tissue ($r(t ~ + ~ \Delta t) = ~ 2r(t) ~ - ~ r(t ~ - ~ \Delta t) + a(t)\Delta t^{2} $).
+        \end{itemize}
+    \end{column}
+\end{columns}
+\end{minipage}
+\end{beamerboxesrounded}
+}
+
+
+%%tissue growth remarks
+\frame{\frametitle{Relaxation}
+\setbeamercolor{uppercol}{fg=black,bg=pink}
+\setbeamercolor{lowercol}{fg=black,bg=pink}
+\begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
+\begin{minipage}[t]{6.1cm}
+\begin{columns}
+    \begin{column}{\textwidth}
+        \hspace{1cm}\flashmovie[auto=0,loop=1,controlbar=1,engine=flv-player,width=6cm,height=6cm]{Animation.flv}
+    \end{column}
+    \begin{column}{0.8\textwidth}
+        \begin{itemize}
+        \item 3 - Once the force is zero, the accelleration of the \emph{Verlet Function} is also zero, and so the position of the vertices don't change from time step $t$ to $t + \Delta t$. 
+        \end{itemize}
     \end{column}
 \end{columns}
 \end{minipage}
@@ -316,11 +356,32 @@ $F = \sum_{\alpha}{\frac{K_{\alpha}}{2}(A_{\alpha} - A_{\alpha}^{(0)})^{2} ~ + ~
 }
 
 %%tissue growth remarks
-\frame{\frametitle{\emph{Regularness of the tissue}}
+\frame{\frametitle{Relaxation}
 \setbeamercolor{uppercol}{fg=black,bg=pink}
 \setbeamercolor{lowercol}{fg=black,bg=pink}
 \begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
+\begin{minipage}[t]{6.1cm}
+\begin{columns}
+    \begin{column}{\textwidth}
+        \hspace{1cm}\flashmovie[auto=0,loop=1,controlbar=1,engine=flv-player,width=6cm,height=6cm]{Animation.flv}
+    \end{column}
+    \begin{column}{0.8\textwidth}
+        \begin{itemize}
+        \item 4 - Relaxation is finished once the length of the tissue remains \emph{steady} (the position of its vertices don't change) along 100 time steps ($\frac{sd(\sum_{\alpha}{L_{\alpha}})}{\bar{\sum_{\alpha}{L_{\alpha}}}} \apeq 0 $).
+        \end{itemize}
+    \end{column}
+\end{columns}
+\end{minipage}
+\end{beamerboxesrounded}
+}
+
+
+%%tissue growth remarks
+\frame{\frametitle{\emph{Regularness of the tissue}}
+\setbeamercolor{uppercol}{fg=black,bg=pink}
+\setbeamercolor{lowercol}{fg=black,bg=pink}
 We define \textbf{\emph{regularness}} as a dimensionless measure to say how regular the cells of a tissue are.
+\begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
 \begin{minipage}[t]{6.1cm}
 \begin{columns}
     \begin{column}{\textwidth}
