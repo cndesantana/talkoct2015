@@ -11,4 +11,12 @@
 \beamer@sectionintoc {3}{Model Dynamics}{15}{0}{3}
 \beamer@subsectionintoc {3}{1}{Sequence of Events}{15}{0}{3}
 \beamer@subsectionintoc {3}{2}{Relaxation}{17}{0}{3}
-\beamer@sectionintoc {4}{Acknowledgments}{22}{0}{4}
+\beamer@subsectionintoc {3}{3}{Cell Proliferation}{26}{0}{3}
+\beamer@subsectionintoc {3}{4}{Cell Growth}{27}{0}{3}
+\beamer@subsectionintoc {3}{5}{Cell Division}{30}{0}{3}
+\beamer@subsectionintoc {3}{6}{Steady State}{35}{0}{3}
+\beamer@sectionintoc {4}{Results}{36}{0}{4}
+\beamer@subsectionintoc {4}{1}{Results}{36}{0}{4}
+\beamer@sectionintoc {5}{Next Steps}{38}{0}{5}
+\beamer@subsectionintoc {5}{1}{Next Steps}{38}{0}{5}
+\beamer@sectionintoc {6}{Acknowledgments}{43}{0}{6}
