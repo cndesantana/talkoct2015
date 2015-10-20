@@ -1,0 +1,11 @@
+\beamer@endinputifotherversion {3.24pt}
+\beamer@sectionintoc {1}{Motivation}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{From Real data}{2}{0}{1}
+\beamer@subsectionintoc {1}{2}{From theory}{3}{0}{1}
+\beamer@sectionintoc {2}{General Assumptions}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{General Assumptions}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Line Tension}{9}{0}{2}
+\beamer@subsectionintoc {2}{3}{Contractility}{10}{0}{2}
+\beamer@subsectionintoc {2}{4}{Elasticity}{11}{0}{2}
+\beamer@subsectionintoc {2}{5}{Energy Function}{12}{0}{2}
+\beamer@sectionintoc {3}{Acknowledgments}{15}{0}{3}

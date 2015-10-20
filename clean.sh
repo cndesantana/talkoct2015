@@ -1,0 +1,1 @@
+rm WagnerGroupOct2015.blg WagnerGroupOct2015.bbl WagnerGroupOct2015.dvi WagnerGroupOct2015.toc WagnerGroupOct2015.snm WagnerGroupOct2015.out WagnerGroupOct2015.nav WagnerGroupOct2015.aux WagnerGroupOct2015.log WagnerGroupOct2015.pdf

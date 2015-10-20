@@ -1,0 +1,4104 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2015.3.14)  5 OCT 2015 13:38
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**animate.tex
+(./animate.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 2 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2013/12/03 3.9h The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2013/12/03 3.9h Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/pst-3dplot/pst-3dplot.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pstricks/pstricks.sty
+Package: pstricks 2013/12/12 v0.60 LaTeX wrapper for `PSTricks' (RN,HV)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+\XKV@depth=\count88
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))))
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex
+`pst-fp' v0.05, 2010/01/17 (hv)
+\pstFP@xs=\count89
+\pstFP@xia=\count90
+\pstFP@xib=\count91
+\pstFP@xfa=\count92
+\pstFP@xfb=\count93
+\pstFP@rega=\count94
+\pstFP@regb=\count95
+\pstFP@regs=\count96
+\pstFP@times=\count97
+)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks16
+)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks19
+))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
+\pgffor@iter=\dimen104
+\pgffor@skip=\dimen105
+\pgffor@stack=\toks20
+\pgffor@toks=\toks21
+)
+\psLoopIndex=\count98
+
+`PSTricks' v2.51  <2014/02/03> (tvz)
+\pst@dima=\dimen106
+\pst@dimb=\dimen107
+\pst@dimc=\dimen108
+\pst@dimd=\dimen109
+\pst@dimg=\dimen110
+\pst@dimh=\dimen111
+\pst@dimm=\dimen112
+\pst@dimn=\dimen113
+\pst@dimo=\dimen114
+\pst@dimp=\dimen115
+\pst@hbox=\box26
+\pst@ibox=\box27
+\pst@boxg=\box28
+\pst@cnta=\count99
+\pst@cntb=\count100
+\pst@cntc=\count101
+\pst@cntd=\count102
+\pst@cntg=\count103
+\pst@cnth=\count104
+\pst@cntm=\count105
+\pst@cntn=\count106
+\pst@cnto=\count107
+\pst@cntp=\count108
+\@zero=\count109
+\pst@toks=\toks22
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.con)
+\psunit=\dimen116
+\psxunit=\dimen117
+\psyunit=\dimen118
+\pst@C@@rType=\count110
+\pslinewidth=\dimen119
+\psk@startLW=\dimen120
+\psk@endLW=\dimen121
+\pst@customdefs=\toks23
+\pslinearc=\dimen122
+\pst@symbolStep=\dimen123
+\pst@symbolWidth=\dimen124
+\pst@symbolLinewidth=\dimen125
+\everypsbox=\toks24
+\psframesep=\dimen126
+\pslabelsep=\dimen127
+\sh@wgridXunit=\dimen128
+\sh@wgridYunit=\dimen129
+\pst@shift=\dimen130
+)
+File: pstricks.tex 2014/02/03 v2.51 `PSTricks' (tvz,hv)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex)
+File: pst-fp.tex 2014/02/03 v2.51 `PST-fp' (hv)
+
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: dvips.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/pst-3d/pst-3d.sty
+Package: pst-3d 2009/07/28 package wrapper for pst-3d.tex (hv)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pst-3d/pst-3d.tex
+`PST-3d' v1.11, 2010/02/14 (tvz))
+File: pst-3d.tex 2010/02/14 v1.11 `PST-3d' (hv)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pst-plot/pst-plot.sty
+Package: pst-plot 2011/06/05 v1.00 LaTeX wrapper for `pst-plot' (HV)
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/pst-xkey.sty
+Package: pst-xkey 2005/11/25 v1.6 package wrapper for pst-xkey.tex (HA)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multido/multido.sty
+Package: multido 2004/05/17 package wrapper for PSTricks `multido.tex', (HV/RN)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/multido/multido.tex
+ v1.42, 2010/05/14 <tvz>
+\multido@count=\count111
+\multidocount=\count112
+\multido@stuff=\toks25
+)
+File: multido.tex 2010/05/14 v1.42 `multido' (tvz,hv)
+)
+Package: pst-plot 2011/04/13 package wrapper for pst-plot.tex (hv)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pst-plot/pst-plot.tex
+ v1.58, 2014/01/16 (tvz,hv)
+\pstRadUnit=\dimen131
+\pstRadUnitInv=\dimen132
+\pst@linecnt=\count113
+\RCD@file=\read1
+\psxlabelsep=\dimen133
+\psylabelsep=\dimen134
+\psk@subticksize=\dimen135
+\pst@xticksizeA=\dimen136
+\pst@xticksizeB=\dimen137
+\pst@xticksizeC=\dimen138
+\pst@yticksizeA=\dimen139
+\pst@yticksizeB=\dimen140
+\pst@yticksizeC=\dimen141
+\@digitcounter=\count114
+\psk@llx=\dimen142
+\psk@lly=\dimen143
+\psk@urx=\dimen144
+\psk@ury=\dimen145
+\pst@xunit=\dimen146
+\pst@yunit=\dimen147
+)
+File: pst-plot.tex 2014/01/16 1.58 `pst-plot' (tvz,hv)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pst-node/pst-node.sty
+Package: pst-node 2012/09/18 v1.01 LaTeX wrapper for `pst-node' (HV)
+Package: pst-node 2010/04/22 package wrapper for pst-node.tex
+
+(/usr/share/texlive/texmf-dist/tex/generic/pst-node/pst-node.tex
+ v1.32, 2014/02/03
+\psrow=\count115
+\pscol=\count116
+\psmatrixcnt=\count117
+\psrowsep=\skip43
+\pscolsep=\skip44
+\pst@args=\count118
+\num@pts=\count119
+\pst@argcnt=\count120
+)
+File: pst-node.tex 2014/02/03 1.32 `pst-node' (tvz,hv)
+)
+Package: pst-3dplot 2010/01/01 package wrapper for pst-3dplot.tex (hv)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pst-3dplot/pst-3dplot.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pst-node/pst-node.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/multido/multido.tex
+ v1.42, 2010/05/14 <tvz>) `PST-3dplot' v1.99, 2013/02/01 (HV,DL)
+\pst@dimf=\dimen148
+\pst@cntx=\count121
+\pst@cnty=\count122
+\pst@cntz=\count123
+\pst@dimx=\dimen149
+\pst@dimy=\dimen150
+\pst@dimz=\dimen151
+\pst@dx=\dimen152
+\pst@dy=\dimen153
+\pszunit=\dimen154
+)
+File: pst-3dplot.tex 2013/02/01 v1.99 `PST-3dplot' (hv)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pst-tools/pst-tools.sty
+Package: pst-tools 2012/01/01 package wrapper for pst-tools.tex (hv)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pst-tools/pst-tools.tex
+`PST-tools' v0.04, 2013/07/08 (hv))
+File: pst-tools.tex 2013/07/08 v0.04 `PST-tools' (hv)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pst-text/pst-text.sty
+Package: pst-text 2006/01/01 package wrapper for pst-text.tex (hv)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pst-text/pst-text.tex
+ v1.00, 2006/11/05(tvz,hv))
+File: pst-text.tex 2006/11/05 1.00 `pst-text' (tvz)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pst-ode/pst-ode.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pst-ode/pst-ode.tex
+`pst-ode' v0.6, 2013/11/26 (ag))
+Package: pst-ode 2013/11/26 v0.6 package wrapper for pst-ode.tex (ag)
+File: pst-ode.tex 2013/11/26 v0.6 `pst-ode' (ag)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/media9/media9.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3names.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3bootstrap.sty
+Package: l3bootstrap 2014/01/04 v4640 L3 Experimental bootstrap code
+)
+Package: l3names 2014/01/04 v4640 L3 Namespace for primitives
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count124
+)
+Package: expl3 2014/01/07 v4646 L3 Experimental code bundle wrapper
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3basics.sty
+Package: l3basics 2014/01/04 v4642 L3 Basic definitions
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3expan.sty
+Package: l3expan 2014/01/04 v4642 L3 Argument expansion
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3tl.sty
+Package: l3tl 2013/12/27 v4625 L3 Token lists
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3seq.sty
+Package: l3seq 2013/12/14 v4623 L3 Sequences and stacks
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3int.sty
+Package: l3int 2013/08/02 v4583 L3 Integers
+\c_max_int=\count125
+\l_tmpa_int=\count126
+\l_tmpb_int=\count127
+\g_tmpa_int=\count128
+\g_tmpb_int=\count129
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3quark.sty
+Package: l3quark 2013/12/14 v4623 L3 Quarks
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3prg.sty
+Package: l3prg 2014/01/04 v4642 L3 Control structures
+\g__prg_map_int=\count130
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3clist.sty
+Package: l3clist 2013/07/28 v4581 L3 Comma separated lists
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3token.sty
+Package: l3token 2013/08/25 v4587 L3 Experimental token manipulation
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3prop.sty
+Package: l3prop 2013/12/14 v4623 L3 Property lists
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3msg.sty
+Package: l3msg 2013/07/28 v4581 L3 Messages
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3file.sty
+Package: l3file 2013/10/13 v4596 L3 File and I/O operations
+\l_iow_line_count_int=\count131
+\l__iow_target_count_int=\count132
+\l__iow_current_line_int=\count133
+\l__iow_current_word_int=\count134
+\l__iow_current_indentation_int=\count135
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3skip.sty
+Package: l3skip 2013/07/28 v4581 L3 Dimensions and skips
+\c_zero_dim=\dimen155
+\c_max_dim=\dimen156
+\l_tmpa_dim=\dimen157
+\l_tmpb_dim=\dimen158
+\g_tmpa_dim=\dimen159
+\g_tmpb_dim=\dimen160
+\c_zero_skip=\skip45
+\c_max_skip=\skip46
+\l_tmpa_skip=\skip47
+\l_tmpb_skip=\skip48
+\g_tmpa_skip=\skip49
+\g_tmpb_skip=\skip50
+\c_zero_muskip=\muskip10
+\c_max_muskip=\muskip11
+\l_tmpa_muskip=\muskip12
+\l_tmpb_muskip=\muskip13
+\g_tmpa_muskip=\muskip14
+\g_tmpb_muskip=\muskip15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3keys.sty
+Package: l3keys 2013/12/08 v4614 L3 Experimental key-value interfaces
+\g__keyval_level_int=\count136
+\l_keys_choice_int=\count137
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3fp.sty
+Package: l3fp 2014/01/04 v4642 L3 Floating points
+\c__fp_leading_shift_int=\count138
+\c__fp_middle_shift_int=\count139
+\c__fp_trailing_shift_int=\count140
+\c__fp_big_leading_shift_int=\count141
+\c__fp_big_middle_shift_int=\count142
+\c__fp_big_trailing_shift_int=\count143
+\c__fp_Bigg_leading_shift_int=\count144
+\c__fp_Bigg_middle_shift_int=\count145
+\c__fp_Bigg_trailing_shift_int=\count146
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3box.sty
+Package: l3box 2013/07/28 v4581 L3 Experimental boxes
+\c_empty_box=\box29
+\l_tmpa_box=\box30
+\l_tmpb_box=\box31
+\g_tmpa_box=\box32
+\g_tmpb_box=\box33
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3coffins.sty
+Package: l3coffins 2013/12/14 v4624 L3 Coffin code layer
+\l__coffin_internal_box=\box34
+\l__coffin_internal_dim=\dimen161
+\l__coffin_offset_x_dim=\dimen162
+\l__coffin_offset_y_dim=\dimen163
+\l__coffin_x_dim=\dimen164
+\l__coffin_y_dim=\dimen165
+\l__coffin_x_prime_dim=\dimen166
+\l__coffin_y_prime_dim=\dimen167
+\c_empty_coffin=\box35
+\l__coffin_aligned_coffin=\box36
+\l__coffin_aligned_internal_coffin=\box37
+\l_tmpa_coffin=\box38
+\l_tmpb_coffin=\box39
+\l__coffin_display_coffin=\box40
+\l__coffin_display_coord_coffin=\box41
+\l__coffin_display_pole_coffin=\box42
+\l__coffin_display_offset_dim=\dimen168
+\l__coffin_display_x_dim=\dimen169
+\l__coffin_display_y_dim=\dimen170
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3color.sty
+Package: l3color 2012/08/29 v4156 L3 Experimental color support
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3luatex.sty
+Package: l3luatex 2013/07/28 v4581 L3 Experimental LuaTeX-specific functions
+\g__cctab_allocate_int=\count147
+\g__cctab_stack_int=\count148
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3candidates.sty
+Package: l3candidates 2014/01/06 v4643 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen171
+\l__box_bottom_dim=\dimen172
+\l__box_left_dim=\dimen173
+\l__box_right_dim=\dimen174
+\l__box_top_new_dim=\dimen175
+\l__box_bottom_new_dim=\dimen176
+\l__box_left_new_dim=\dimen177
+\l__box_right_new_dim=\dimen178
+\l__box_internal_box=\box43
+\l__coffin_bounding_shift_dim=\dimen179
+\l__coffin_left_corner_dim=\dimen180
+\l__coffin_right_corner_dim=\dimen181
+\l__coffin_bottom_corner_dim=\dimen182
+\l__coffin_top_corner_dim=\dimen183
+\l__coffin_scaled_total_height_dim=\dimen184
+\l__coffin_scaled_width_dim=\dimen185
+))
+(/usr/share/texlive/texmf-dist/tex/latex/l3experimental/l3str/l3regex.sty
+Package: l3regex 2013/12/14 v4623 L3 Experimental regular expressions
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3experimental/l3str/l3tl-build.sty
+Package: l3tl-build 2011/12/08 v3039 L3 Experimental token list construction
+\l__tl_build_start_index_int=\count149
+\l__tl_build_index_int=\count150
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3experimental/l3str/l3tl-analysis.sty
+Package: l3tl-analysis 2011/12/08 v3039 L3 Experimental token lists analysis
+(/usr/share/texlive/texmf-dist/tex/latex/l3experimental/l3str/l3str.sty
+Package: l3str 2013/07/24 v4576 L3 Experimental strings
+)
+\l__tl_analysis_normal_int=\count151
+\l__tl_analysis_index_int=\count152
+\l__tl_analysis_nesting_int=\count153
+\l__tl_analysis_type_int=\count154
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3experimental/l3str/l3flag.sty
+Package: l3flag 2011/12/08 v3039 L3 Experimental flags
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3experimental/l3str/l3str-convert.sty
+Package: l3str-convert 2013/01/08 v4339 L3 Experimental string encoding convers
+ions
+\l__str_internal_int=\count155
+\c__str_replacement_char_int=\count156
+)
+\l__regex_internal_a_int=\count157
+\l__regex_internal_b_int=\count158
+\l__regex_internal_c_int=\count159
+\l__regex_balance_int=\count160
+\l__regex_group_level_int=\count161
+\l__regex_mode_int=\count162
+\l__regex_catcodes_int=\count163
+\l__regex_default_catcodes_int=\count164
+\c__regex_catcode_D_int=\count165
+\c__regex_catcode_S_int=\count166
+\c__regex_catcode_L_int=\count167
+\c__regex_catcode_O_int=\count168
+\c__regex_catcode_A_int=\count169
+\c__regex_all_catcodes_int=\count170
+\l__regex_show_lines_int=\count171
+\l__regex_min_state_int=\count172
+\l__regex_max_state_int=\count173
+\l__regex_left_state_int=\count174
+\l__regex_right_state_int=\count175
+\l__regex_capturing_group_int=\count176
+\l__regex_min_pos_int=\count177
+\l__regex_max_pos_int=\count178
+\l__regex_current_pos_int=\count179
+\l__regex_start_pos_int=\count180
+\l__regex_success_pos_int=\count181
+\l__regex_current_char_int=\count182
+\l__regex_current_catcode_int=\count183
+\l__regex_last_char_int=\count184
+\l__regex_case_changed_char_int=\count185
+\l__regex_current_state_int=\count186
+\l__regex_step_int=\count187
+\l__regex_min_active_int=\count188
+\l__regex_max_active_int=\count189
+\l__regex_replacement_csnames_int=\count190
+\l__regex_match_count_int=\count191
+\l__regex_submatch_int=\count192
+\l__regex_zeroth_submatch_int=\count193
+) (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2013/12/31 v4634 LaTeX2e option processing using LaTeX3 keys
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2013/12/31 v4634 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count194
+\l__xparse_m_args_int=\count195
+\l__xparse_mandatory_args_int=\count196
+\l__xparse_processor_int=\count197
+\l__xparse_v_nesting_int=\count198
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+))
+(/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks26
+)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box44
+
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
+))
+Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
+
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+)
+\Gin@req@height=\dimen186
+\Gin@req@width=\dimen187
+)
+(/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex)
+\pgf@x=\dimen188
+\pgf@y=\dimen189
+\pgf@xa=\dimen190
+\pgf@ya=\dimen191
+\pgf@xb=\dimen192
+\pgf@yb=\dimen193
+\pgf@xc=\dimen194
+\pgf@yc=\dimen195
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count199
+\c@pgf@countb=\count200
+\c@pgf@countc=\count201
+Normal \count register pool exhausted, switching to extended pool.
+\c@pgf@countd=\count277
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-dvips.def on input line 900.
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-dvips.def
+File: pgfsys-dvips.def 2008/04/03  (rcs-revision 1.20)
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-postscript.def
+File: pgfsys-common-postscript.def 2008/10/01  (rcs-revision 1.22)
+\pgf@objectcount=\count278
+)))
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+\pgfsyssoftpath@smallbuffer@items=\count279
+\pgfsyssoftpath@bigbuffer@items=\count280
+)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
+
+(/usr/share/texmf/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen196
+\pgfmath@count=\count281
+\pgfmath@box=\box45
+\pgfmath@toks=\toks27
+\pgfmath@stack@operand=\toks28
+\pgfmath@stack@operation=\toks29
+)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count282
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
+\pgf@picminx=\dimen197
+\pgf@picmaxx=\dimen198
+\pgf@picminy=\dimen199
+\pgf@picmaxy=\dimen200
+\pgf@pathminx=\dimen201
+Normal \dimen register pool exhausted, switching to extended pool.
+\pgf@pathmaxx=\dimen256
+\pgf@pathminy=\dimen257
+\pgf@pathmaxy=\dimen258
+\pgf@xx=\dimen259
+\pgf@xy=\dimen260
+\pgf@yx=\dimen261
+\pgf@yy=\dimen262
+\pgf@zx=\dimen263
+\pgf@zy=\dimen264
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
+\pgf@path@lastx=\dimen265
+\pgf@path@lasty=\dimen266
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
+\pgf@shorten@end@additional=\dimen267
+\pgf@shorten@start@additional=\dimen268
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
+\pgfpic=\box46
+\pgf@hbox=\box47
+\pgf@layerbox@main=\box48
+\pgf@picture@serial@count=\count283
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
+\pgflinewidth=\dimen269
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
+\pgf@pt@x=\dimen270
+\pgf@pt@y=\dimen271
+\pgf@pt@temp=\dimen272
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
+\pgf@max=\dimen273
+\pgf@sys@shading@range@num=\count284
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
+\pgfexternal@startupbox=\box49
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
+)))
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
+\pgfnodeparttextbox=\box50
+)
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen274
+\pgf@nodesepend=\dimen275
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
+))
+(/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
+\pgffor@iter=\dimen276
+\pgffor@skip=\dimen277
+\pgffor@stack=\toks30
+\pgffor@toks=\toks31
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
+\pgf@plot@mark@count=\count285
+\pgfplotmarksize=\dimen278
+)
+\tikz@lastx=\dimen279
+\tikz@lasty=\dimen280
+\tikz@lastxsaved=\dimen281
+\tikz@lastysaved=\dimen282
+\tikzleveldistance=\dimen283
+\tikzsiblingdistance=\dimen284
+\tikz@figbox=\box51
+\tikz@tempbox=\box52
+\tikztreelevel=\count286
+\tikznumberofchildren=\count287
+\tikznumberofcurrentchild=\count288
+\tikz@fig@count=\count289
+
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
+\pgfmatrixcurrentrow=\count290
+\pgfmatrixcurrentcolumn=\count291
+\pgf@matrix@numberofcolumns=\count292
+)
+\tikz@expandcount=\count293
+
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
+hs.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
+)))
+Package: media9 2014/02/06 v0.39 acrobat-9/X compatible media
+\l_mix_poster_box=\box53
+\g_mix_wd_dim=\dimen285
+\g_mix_ht_dim=\dimen286
+\g_mix_dp_dim=\dimen287
+\g_mix_rmcnt_int=\count294
+\l_mix_viewcnt_int=\count295
+\g@mix@page@int=\count296
+\g_mix_obj_int=\count297
+\g_mix_resizeflag_int=\count298
+\l_mix_lineno_int=\count299
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \addmediapath with arg. spec. 'm' on line 1157.
+.................................................
+\l_mix_pbtn_box=\box54
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \includemedia with arg. spec. 'O{}mm' on line
+. 1446.
+.................................................
+\g_mix_mbtncnt_int=\count300
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \mediabutton with arg. spec. 'O{}m' on line 2535.
+.................................................
+) (./animate.sty
+Package: animate 2015/08/28 PDF animations from files and inline graphics
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ifdraft.sty
+Package: ifdraft 2008/08/11 v1.3 Detect class options draft and final (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count301
+\calc@Bcount=\count302
+\calc@Adimen=\dimen288
+\calc@Bdimen=\dimen289
+\calc@Askip=\skip51
+\calc@Bskip=\skip52
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count303
+\calc@Cskip=\skip53
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/atenddvi.sty
+Package: atenddvi 2007/04/17 v1.1 At end DVI hook (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
+Package: zref-abspage 2012/04/04 v2.24 Module abspage for zref (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/zref-base.sty
+Package: zref-base 2012/04/04 v2.24 Module base for zref (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 759.
+Package zref Info: New property: default on input line 760.
+Package zref Info: New property: page on input line 761.
+)
+\c@abspage=\count304
+Package zref Info: New property: abspage on input line 62.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/zref-lastpage.sty
+Package: zref-lastpage 2012/04/04 v2.24 Module lastpage for zref (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/atveryend.sty
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+Package zref Info: New property list: LastPage on input line 55.
+))
+(./animfp.sty
+Package: animfp 2009/07/23 fixed point addition for animate.sty
+\afp@xs=\count305
+\afp@xia=\count306
+\afp@xib=\count307
+\afp@xfa=\count308
+\afp@xfb=\count309
+\afp@rega=\count310
+\afp@regb=\count311
+\afp@regs=\count312
+)
+\@anim@fieldnum=\count313
+\@anim@box=\box55
+\@anim@measbox=\box56
+\@anim@tmpdima=\dimen290
+\@anim@tmpdimb=\dimen291
+\@anim@objnum=\count314
+\@anim@num=\count315
+\@anim@curframe=\count316
+\@anim@curframe@zb=\count317
+\@anim@resizeflags=\count318
+\@anim@skipfram=\count319
+\@anim@mulframecnt=\count320
+\@anim@@tmlnfile=\read3
+\@anim@tmpcnt=\count321
+\c@@anim@ltxcnt=\count322
+\@anim@curlayer=\count323
+\@anim@lineno=\count324
+\@anim@curfield=\count325
+\@anim@@resizeflags=\count326
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/intcalc.sty
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+(/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mflogo/mflogo.sty
+Package: mflogo 1999/03/10 v2.0 LaTeX package for Metafont and MetaPost logos
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
+\MT@toks=\toks32
+\MT@count=\count327
+LaTeX Info: Redefining \textls on input line 766.
+\MT@outer@kern=\dimen292
+LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
+\MT@listname@count=\count328
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 915.
+LaTeX Info: Redefining \lslig on input line 915.
+\MT@outer@space=\skip54
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2001/04/09 non-zero parskip adjustments
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tabls/tabls.sty
+\tablinesep=\dimen293
+\arraylinesep=\dimen294
+\extrarulesep=\dimen295
+\@arstdepth=\dimen296
+\@arstheight=\dimen297
+\@skip@bove=\dimen298
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen299
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package hobsub Info: Skipping package `intcalc' (already loaded).
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package hobsub Info: Skipping package `kvdefinekeys' (already loaded).
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package hobsub Info: Skipping package `atveryend' (already loaded).
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen300
+\Hy@linkcounter=\count329
+\Hy@pagecounter=\count330
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count331
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4319
+.
+Package hyperref Info: Option `linktocpage' set `true' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count332
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen301
+\Fld@menulength=\count333
+\Field@Width=\dimen302
+\Fld@charsize=\dimen303
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count334
+\c@Item=\count335
+\c@Hfootnote=\count336
+)
+
+Package hyperref Message: Driver (default): hdvips.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hdvips.def
+File: hdvips.def 2012/11/06 v6.83m Hyperref driver for dvips
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pdfmark.def
+File: pdfmark.def 2012/11/06 v6.83m Hyperref definitions for pdfmark specials
+\pdf@docset=\toks33
+\pdf@box=\box57
+\pdf@toks=\toks34
+\pdf@defaulttoks=\toks35
+\HyField@AnnotCount=\count337
+\Fld@listcount=\count338
+\c@bookmark@seq@number=\count339
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip55
+))
+(/usr/share/texlive/texmf-dist/tex/latex/breakurl/breakurl.sty
+Package: breakurl 2013/04/10 v1.40 Breakable hyperref URLs
+\burl@toks=\toks36
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip56
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks37
+\ex@=\dimen304
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen305
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count340
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count341
+\leftroot@=\count342
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count343
+\DOTSCASE@=\count344
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box58
+\strutbox@=\box59
+\big@size=\dimen306
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count345
+\c@MaxMatrixCols=\count346
+\dotsspace@=\muskip17
+\c@parentequation=\count347
+\dspbrk@lvl=\count348
+\tag@help=\toks38
+\row@=\count349
+\column@=\count350
+\maxfields@=\count351
+\andhelp@=\toks39
+\eqnshift@=\dimen307
+\alignsep@=\dimen308
+\tagshift@=\dimen309
+\tagwidth@=\dimen310
+\totwidth@=\dimen311
+\lineht@=\dimen312
+\@envbody=\toks40
+\multlinegap=\skip57
+\multlinetaggap=\skip58
+\mathdisplay@stack=\toks41
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count352
+\FV@InFile=\read4
+\FV@TabBox=\box60
+\c@FancyVerbLine=\count353
+\FV@StepNumber=\count354
+\FV@OutFile=\write4
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen313
+\extrarowheight=\dimen314
+\NC@list=\toks42
+\extratabsurround=\skip59
+\backup@length=\skip60
+
+
+LaTeX Warning: Command \@xhline  has changed.
+               Check if current package is valid.
+
+)
+\TX@col@width=\dimen315
+\TX@old@table=\dimen316
+\TX@old@col=\dimen317
+\TX@target=\dimen318
+\TX@delta=\dimen319
+\TX@cols=\count355
+\TX@ftn=\toks43
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/hypcap.sty
+Package: hypcap 2011/02/16 v1.11 Adjusting the anchors of captions (HO)
+)
+
+Package hyperref Warning: Option `pagebordercolor' is not available anymore.
+
+No file animate.aux.
+\openout1 = `animate.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 84.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 84.
+
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+\AtBeginShipoutBox=\box61
+ ABD: EveryShipout initializing macros
+LaTeX Info: Redefining \microtypecontext on input line 84.
+Package microtype Info: Generating DVI output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: No font expansion.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+Package hyperref Info: Link coloring OFF on input line 84.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count356
+)
+LaTeX Info: Redefining \ref on input line 84.
+LaTeX Info: Redefining \pageref on input line 84.
+LaTeX Info: Redefining \nameref on input line 84.
+\@outlinefile=\write5
+\openout5 = `animate.out'.
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 93.
+(/usr/share/texmf/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `lmss' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 93.
+
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 93.
+
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 93.
+
+
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 93.
+
+
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 93.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 93.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 93.
+File: files/bye_0.eps Graphic file (type eps)
+ <files/bye_0.eps>
+File: files/bye_1.eps Graphic file (type eps)
+ <files/bye_1.eps>
+File: files/bye_2.eps Graphic file (type eps)
+
+<files/bye_2.eps>
+File: files/bye_3.eps Graphic file (type eps)
+ <files/bye_3.eps>
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 93.
+File: files/mailto.eps Graphic file (type eps)
+ <files/mailto.eps>
+\tf@toc=\write6
+\openout6 = `animate.toc'.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 107.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 107.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 109.
+
+
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 120.
+
+[1
+
+]
+Overfull \hbox (9.24615pt too wide) in paragraph at lines 122--123
+[]\T1/lmr/m/n/10 Adobe Reader, ver-sion $\OMS/lmsy/m/n/10 ^^U \OT1/lmr/m/n/10 7
+$ \T1/lmr/m/n/10 or PDF-XChange Viewer (with op-tion `[]\T1/lmtt/m/n/10 method=
+widget\T1/lmr/m/n/10 '
+ []
+
+
+LaTeX Warning: Reference `sect:bugs' on page 2 undefined on input line 133.
+
+[2] <a1,fr0> <a1,fr1> [3]
+Overfull \hbox (46.64885pt too wide) in paragraph at lines 179--179
+[]\T1/lmtt/m/n/10 \animategraphics[<options>]{<frame rate>}{<file basename>}{<f
+irst>}{<last>}[] 
+ []
+
+
+Overfull \hbox (2.58553pt too wide) in paragraph at lines 203--204
+[]\T1/lmtt/m/n/10 \begin{animateinline} \T1/lmr/m/n/10 and []\T1/lmtt/m/n/10 \e
+nd{animateinline} \T1/lmr/m/n/10 or by any of the []\T1/lmtt/m/n/10 \newframe
+ []
+
+[4
+
+]
+
+LaTeX Warning: Reference `sect:timeline' on page 5 undefined on input line 205.
+
+
+LaTeX Font Info:    Try loading font information for U+logo on input line 215.
+(/usr/share/texlive/texmf-dist/tex/latex/mflogo/ulogo.fd
+File: ulogo.fd 1999/03/10 v2.0 LaTeX font defs for Metafont and MetaPost logos
+) [5]
+
+LaTeX Warning: Reference `sect:api' on page 6 undefined on input line 236.
+
+[6]
+Overfull \hbox (12.64323pt too wide) in paragraph at lines 272--273
+\T1/lmr/m/n/10 Step through the an-i-ma-tion one frame at a time per mouse-clic
+k. The []\T1/lmtt/m/n/10 <frame rate>
+ []
+
+[7]
+
+LaTeX Warning: Reference `sect:api' on page 8 undefined on input line 316.
+
+
+LaTeX Warning: Reference `sect:api' on page 8 undefined on input line 316.
+
+[8] [9]
+
+LaTeX Warning: Reference `sect:jsfield' on page 10 undefined on input line 359.
+
+
+
+LaTeX Warning: Reference `tab:single' on page 10 undefined on input line 375.
+
+[10]
+
+LaTeX Warning: Reference `fig:taylor' on page 11 undefined on input line 392.
+
+
+LaTeX Warning: Reference `fig:lorenz' on page 11 undefined on input line 392.
+
+
+LaTeX Warning: Reference `sect:examples' on page 11 undefined on input line 392
+.
+
+
+LaTeX Warning: Reference `tab:multi' on page 11 undefined on input line 397.
+
+[11]
+
+LaTeX Warning: Reference `fig:scarab' on page 12 undefined on input line 429.
+
+
+LaTeX Warning: Reference `sect:examples' on page 12 undefined on input line 429
+.
+
+
+LaTeX Warning: Citation `media9' on page 12 undefined on input line 432.
+
+
+LaTeX Warning: Reference `sect:api' on page 12 undefined on input line 432.
+
+[12] [13]
+
+LaTeX Warning: Reference `tab:props' on page 14 undefined on input line 474.
+
+
+LaTeX Warning: Reference `tab:methods' on page 14 undefined on input line 474.
+
+
+LaTeX Warning: Reference `sect:timeline' on page 14 undefined on input line 476
+.
+
+
+LaTeX Warning: Reference `sect:jsfield' on page 14 undefined on input line 476.
+
+
+[14] [15]
+
+LaTeX Warning: Reference `fig:taylor' on page 16 undefined on input line 528.
+
+
+LaTeX Warning: Citation `hol' on page 16 undefined on input line 528.
+
+\openout4 = `timeline.txt'.
+
+
+! Package animate Error: None of the files
+(animate)                `exp_0.eps',
+(animate)                `exp_0.mps' or
+(animate)                `exp_0.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.588 ]{4}{exp_}{0}{8}
+                      
+? 
+
+! LaTeX Error: Cannot determine size of graphic in timeline.txt (no BoundingBox
+).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.588 ]{4}{exp_}{0}{8}
+                      
+? 
+File: timeline.txt Graphic file (type eps)
+<timeline.txt>
+
+! Package animate Error: None of the files
+(animate)                `exp_1.eps',
+(animate)                `exp_1.mps' or
+(animate)                `exp_1.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.588 ]{4}{exp_}{0}{8}
+                      
+? 
+
+! Package animate Error: None of the files
+(animate)                `exp_2.eps',
+(animate)                `exp_2.mps' or
+(animate)                `exp_2.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.588 ]{4}{exp_}{0}{8}
+                      
+? 
+
+! Package animate Error: None of the files
+(animate)                `exp_3.eps',
+(animate)                `exp_3.mps' or
+(animate)                `exp_3.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.588 ]{4}{exp_}{0}{8}
+                      
+? 
+
+! Package animate Error: None of the files
+(animate)                `exp_4.eps',
+(animate)                `exp_4.mps' or
+(animate)                `exp_4.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.588 ]{4}{exp_}{0}{8}
+                      
+? 
+
+! Package animate Error: None of the files
+(animate)                `exp_5.eps',
+(animate)                `exp_5.mps' or
+(animate)                `exp_5.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.588 ]{4}{exp_}{0}{8}
+                      
+? 
+
+! Package animate Error: None of the files
+(animate)                `exp_6.eps',
+(animate)                `exp_6.mps' or
+(animate)                `exp_6.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.588 ]{4}{exp_}{0}{8}
+                      
+? 
+
+! Package animate Error: None of the files
+(animate)                `exp_7.eps',
+(animate)                `exp_7.mps' or
+(animate)                `exp_7.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.588 ]{4}{exp_}{0}{8}
+                      
+? 
+
+! Package animate Error: None of the files
+(animate)                `exp_8.eps',
+(animate)                `exp_8.mps' or
+(animate)                `exp_8.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.588 ]{4}{exp_}{0}{8}
+                      
+? 
+<building timeline a2 from file `timeline.txt': . . . . . . . . .
+9 frames built >
+
+LaTeX Warning: Reference `fig:scarab' on page 16 undefined on input line 601.
+
+
+LaTeX Warning: Citation `chupin' on page 16 undefined on input line 601.
+
+\c@scarab=\count357
+\c@blueline=\count358
+\c@grayline=\count359
+\TimeLineFile=\write7
+\openout7 = `scarab.tln'.
+
+
+! Package animate Error: None of the files
+(animate)                `scarab_0.eps',
+(animate)                `scarab_0.mps' or
+(animate)                `scarab_0.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! LaTeX Error: Cannot determine size of graphic in scarab.tln (no BoundingBox).
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+File: scarab.tln Graphic file (type eps)
+<scarab.tln>
+
+! Package animate Error: None of the files
+(animate)                `scarab_1.eps',
+(animate)                `scarab_1.mps' or
+(animate)                `scarab_1.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_2.eps',
+(animate)                `scarab_2.mps' or
+(animate)                `scarab_2.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_3.eps',
+(animate)                `scarab_3.mps' or
+(animate)                `scarab_3.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_4.eps',
+(animate)                `scarab_4.mps' or
+(animate)                `scarab_4.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_5.eps',
+(animate)                `scarab_5.mps' or
+(animate)                `scarab_5.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_6.eps',
+(animate)                `scarab_6.mps' or
+(animate)                `scarab_6.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_7.eps',
+(animate)                `scarab_7.mps' or
+(animate)                `scarab_7.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_8.eps',
+(animate)                `scarab_8.mps' or
+(animate)                `scarab_8.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_9.eps',
+(animate)                `scarab_9.mps' or
+(animate)                `scarab_9.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_10.eps',
+(animate)                `scarab_10.mps' or
+(animate)                `scarab_10.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_11.eps',
+(animate)                `scarab_11.mps' or
+(animate)                `scarab_11.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_12.eps',
+(animate)                `scarab_12.mps' or
+(animate)                `scarab_12.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_13.eps',
+(animate)                `scarab_13.mps' or
+(animate)                `scarab_13.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_14.eps',
+(animate)                `scarab_14.mps' or
+(animate)                `scarab_14.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_15.eps',
+(animate)                `scarab_15.mps' or
+(animate)                `scarab_15.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_16.eps',
+(animate)                `scarab_16.mps' or
+(animate)                `scarab_16.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_17.eps',
+(animate)                `scarab_17.mps' or
+(animate)                `scarab_17.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_18.eps',
+(animate)                `scarab_18.mps' or
+(animate)                `scarab_18.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_19.eps',
+(animate)                `scarab_19.mps' or
+(animate)                `scarab_19.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_20.eps',
+(animate)                `scarab_20.mps' or
+(animate)                `scarab_20.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_21.eps',
+(animate)                `scarab_21.mps' or
+(animate)                `scarab_21.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_22.eps',
+(animate)                `scarab_22.mps' or
+(animate)                `scarab_22.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_23.eps',
+(animate)                `scarab_23.mps' or
+(animate)                `scarab_23.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_24.eps',
+(animate)                `scarab_24.mps' or
+(animate)                `scarab_24.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_25.eps',
+(animate)                `scarab_25.mps' or
+(animate)                `scarab_25.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_26.eps',
+(animate)                `scarab_26.mps' or
+(animate)                `scarab_26.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_27.eps',
+(animate)                `scarab_27.mps' or
+(animate)                `scarab_27.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_28.eps',
+(animate)                `scarab_28.mps' or
+(animate)                `scarab_28.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_29.eps',
+(animate)                `scarab_29.mps' or
+(animate)                `scarab_29.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_30.eps',
+(animate)                `scarab_30.mps' or
+(animate)                `scarab_30.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_31.eps',
+(animate)                `scarab_31.mps' or
+(animate)                `scarab_31.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_32.eps',
+(animate)                `scarab_32.mps' or
+(animate)                `scarab_32.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_33.eps',
+(animate)                `scarab_33.mps' or
+(animate)                `scarab_33.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_34.eps',
+(animate)                `scarab_34.mps' or
+(animate)                `scarab_34.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_35.eps',
+(animate)                `scarab_35.mps' or
+(animate)                `scarab_35.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_36.eps',
+(animate)                `scarab_36.mps' or
+(animate)                `scarab_36.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_37.eps',
+(animate)                `scarab_37.mps' or
+(animate)                `scarab_37.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_38.eps',
+(animate)                `scarab_38.mps' or
+(animate)                `scarab_38.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_39.eps',
+(animate)                `scarab_39.mps' or
+(animate)                `scarab_39.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_40.eps',
+(animate)                `scarab_40.mps' or
+(animate)                `scarab_40.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_41.eps',
+(animate)                `scarab_41.mps' or
+(animate)                `scarab_41.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_42.eps',
+(animate)                `scarab_42.mps' or
+(animate)                `scarab_42.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_43.eps',
+(animate)                `scarab_43.mps' or
+(animate)                `scarab_43.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_44.eps',
+(animate)                `scarab_44.mps' or
+(animate)                `scarab_44.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_45.eps',
+(animate)                `scarab_45.mps' or
+(animate)                `scarab_45.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_46.eps',
+(animate)                `scarab_46.mps' or
+(animate)                `scarab_46.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_47.eps',
+(animate)                `scarab_47.mps' or
+(animate)                `scarab_47.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_48.eps',
+(animate)                `scarab_48.mps' or
+(animate)                `scarab_48.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_49.eps',
+(animate)                `scarab_49.mps' or
+(animate)                `scarab_49.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_50.eps',
+(animate)                `scarab_50.mps' or
+(animate)                `scarab_50.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_51.eps',
+(animate)                `scarab_51.mps' or
+(animate)                `scarab_51.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_52.eps',
+(animate)                `scarab_52.mps' or
+(animate)                `scarab_52.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_53.eps',
+(animate)                `scarab_53.mps' or
+(animate)                `scarab_53.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_54.eps',
+(animate)                `scarab_54.mps' or
+(animate)                `scarab_54.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_55.eps',
+(animate)                `scarab_55.mps' or
+(animate)                `scarab_55.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_56.eps',
+(animate)                `scarab_56.mps' or
+(animate)                `scarab_56.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_57.eps',
+(animate)                `scarab_57.mps' or
+(animate)                `scarab_57.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_58.eps',
+(animate)                `scarab_58.mps' or
+(animate)                `scarab_58.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_59.eps',
+(animate)                `scarab_59.mps' or
+(animate)                `scarab_59.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_60.eps',
+(animate)                `scarab_60.mps' or
+(animate)                `scarab_60.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_61.eps',
+(animate)                `scarab_61.mps' or
+(animate)                `scarab_61.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_62.eps',
+(animate)                `scarab_62.mps' or
+(animate)                `scarab_62.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_63.eps',
+(animate)                `scarab_63.mps' or
+(animate)                `scarab_63.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_64.eps',
+(animate)                `scarab_64.mps' or
+(animate)                `scarab_64.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_65.eps',
+(animate)                `scarab_65.mps' or
+(animate)                `scarab_65.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_66.eps',
+(animate)                `scarab_66.mps' or
+(animate)                `scarab_66.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_67.eps',
+(animate)                `scarab_67.mps' or
+(animate)                `scarab_67.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_68.eps',
+(animate)                `scarab_68.mps' or
+(animate)                `scarab_68.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_69.eps',
+(animate)                `scarab_69.mps' or
+(animate)                `scarab_69.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_70.eps',
+(animate)                `scarab_70.mps' or
+(animate)                `scarab_70.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_71.eps',
+(animate)                `scarab_71.mps' or
+(animate)                `scarab_71.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_72.eps',
+(animate)                `scarab_72.mps' or
+(animate)                `scarab_72.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_73.eps',
+(animate)                `scarab_73.mps' or
+(animate)                `scarab_73.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_74.eps',
+(animate)                `scarab_74.mps' or
+(animate)                `scarab_74.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_75.eps',
+(animate)                `scarab_75.mps' or
+(animate)                `scarab_75.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_76.eps',
+(animate)                `scarab_76.mps' or
+(animate)                `scarab_76.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_77.eps',
+(animate)                `scarab_77.mps' or
+(animate)                `scarab_77.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_78.eps',
+(animate)                `scarab_78.mps' or
+(animate)                `scarab_78.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_79.eps',
+(animate)                `scarab_79.mps' or
+(animate)                `scarab_79.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_80.eps',
+(animate)                `scarab_80.mps' or
+(animate)                `scarab_80.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_81.eps',
+(animate)                `scarab_81.mps' or
+(animate)                `scarab_81.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_82.eps',
+(animate)                `scarab_82.mps' or
+(animate)                `scarab_82.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_83.eps',
+(animate)                `scarab_83.mps' or
+(animate)                `scarab_83.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_84.eps',
+(animate)                `scarab_84.mps' or
+(animate)                `scarab_84.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_85.eps',
+(animate)                `scarab_85.mps' or
+(animate)                `scarab_85.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_86.eps',
+(animate)                `scarab_86.mps' or
+(animate)                `scarab_86.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_87.eps',
+(animate)                `scarab_87.mps' or
+(animate)                `scarab_87.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_88.eps',
+(animate)                `scarab_88.mps' or
+(animate)                `scarab_88.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_89.eps',
+(animate)                `scarab_89.mps' or
+(animate)                `scarab_89.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_90.eps',
+(animate)                `scarab_90.mps' or
+(animate)                `scarab_90.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_91.eps',
+(animate)                `scarab_91.mps' or
+(animate)                `scarab_91.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_92.eps',
+(animate)                `scarab_92.mps' or
+(animate)                `scarab_92.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_93.eps',
+(animate)                `scarab_93.mps' or
+(animate)                `scarab_93.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_94.eps',
+(animate)                `scarab_94.mps' or
+(animate)                `scarab_94.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_95.eps',
+(animate)                `scarab_95.mps' or
+(animate)                `scarab_95.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_96.eps',
+(animate)                `scarab_96.mps' or
+(animate)                `scarab_96.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_97.eps',
+(animate)                `scarab_97.mps' or
+(animate)                `scarab_97.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_98.eps',
+(animate)                `scarab_98.mps' or
+(animate)                `scarab_98.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_99.eps',
+(animate)                `scarab_99.mps' or
+(animate)                `scarab_99.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_100.eps',
+(animate)                `scarab_100.mps' or
+(animate)                `scarab_100.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_101.eps',
+(animate)                `scarab_101.mps' or
+(animate)                `scarab_101.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_102.eps',
+(animate)                `scarab_102.mps' or
+(animate)                `scarab_102.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_103.eps',
+(animate)                `scarab_103.mps' or
+(animate)                `scarab_103.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_104.eps',
+(animate)                `scarab_104.mps' or
+(animate)                `scarab_104.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_105.eps',
+(animate)                `scarab_105.mps' or
+(animate)                `scarab_105.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_106.eps',
+(animate)                `scarab_106.mps' or
+(animate)                `scarab_106.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_107.eps',
+(animate)                `scarab_107.mps' or
+(animate)                `scarab_107.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_108.eps',
+(animate)                `scarab_108.mps' or
+(animate)                `scarab_108.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_109.eps',
+(animate)                `scarab_109.mps' or
+(animate)                `scarab_109.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_110.eps',
+(animate)                `scarab_110.mps' or
+(animate)                `scarab_110.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_111.eps',
+(animate)                `scarab_111.mps' or
+(animate)                `scarab_111.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_112.eps',
+(animate)                `scarab_112.mps' or
+(animate)                `scarab_112.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_113.eps',
+(animate)                `scarab_113.mps' or
+(animate)                `scarab_113.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_114.eps',
+(animate)                `scarab_114.mps' or
+(animate)                `scarab_114.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_115.eps',
+(animate)                `scarab_115.mps' or
+(animate)                `scarab_115.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_116.eps',
+(animate)                `scarab_116.mps' or
+(animate)                `scarab_116.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_117.eps',
+(animate)                `scarab_117.mps' or
+(animate)                `scarab_117.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_118.eps',
+(animate)                `scarab_118.mps' or
+(animate)                `scarab_118.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_119.eps',
+(animate)                `scarab_119.mps' or
+(animate)                `scarab_119.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_120.eps',
+(animate)                `scarab_120.mps' or
+(animate)                `scarab_120.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_121.eps',
+(animate)                `scarab_121.mps' or
+(animate)                `scarab_121.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_122.eps',
+(animate)                `scarab_122.mps' or
+(animate)                `scarab_122.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_123.eps',
+(animate)                `scarab_123.mps' or
+(animate)                `scarab_123.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_124.eps',
+(animate)                `scarab_124.mps' or
+(animate)                `scarab_124.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_125.eps',
+(animate)                `scarab_125.mps' or
+(animate)                `scarab_125.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_126.eps',
+(animate)                `scarab_126.mps' or
+(animate)                `scarab_126.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_127.eps',
+(animate)                `scarab_127.mps' or
+(animate)                `scarab_127.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_128.eps',
+(animate)                `scarab_128.mps' or
+(animate)                `scarab_128.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_129.eps',
+(animate)                `scarab_129.mps' or
+(animate)                `scarab_129.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_130.eps',
+(animate)                `scarab_130.mps' or
+(animate)                `scarab_130.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_131.eps',
+(animate)                `scarab_131.mps' or
+(animate)                `scarab_131.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_132.eps',
+(animate)                `scarab_132.mps' or
+(animate)                `scarab_132.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_133.eps',
+(animate)                `scarab_133.mps' or
+(animate)                `scarab_133.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_134.eps',
+(animate)                `scarab_134.mps' or
+(animate)                `scarab_134.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_135.eps',
+(animate)                `scarab_135.mps' or
+(animate)                `scarab_135.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_136.eps',
+(animate)                `scarab_136.mps' or
+(animate)                `scarab_136.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_137.eps',
+(animate)                `scarab_137.mps' or
+(animate)                `scarab_137.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_138.eps',
+(animate)                `scarab_138.mps' or
+(animate)                `scarab_138.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_139.eps',
+(animate)                `scarab_139.mps' or
+(animate)                `scarab_139.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_140.eps',
+(animate)                `scarab_140.mps' or
+(animate)                `scarab_140.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_141.eps',
+(animate)                `scarab_141.mps' or
+(animate)                `scarab_141.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_142.eps',
+(animate)                `scarab_142.mps' or
+(animate)                `scarab_142.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_143.eps',
+(animate)                `scarab_143.mps' or
+(animate)                `scarab_143.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_144.eps',
+(animate)                `scarab_144.mps' or
+(animate)                `scarab_144.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_145.eps',
+(animate)                `scarab_145.mps' or
+(animate)                `scarab_145.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_146.eps',
+(animate)                `scarab_146.mps' or
+(animate)                `scarab_146.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_147.eps',
+(animate)                `scarab_147.mps' or
+(animate)                `scarab_147.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_148.eps',
+(animate)                `scarab_148.mps' or
+(animate)                `scarab_148.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_149.eps',
+(animate)                `scarab_149.mps' or
+(animate)                `scarab_149.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_150.eps',
+(animate)                `scarab_150.mps' or
+(animate)                `scarab_150.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_151.eps',
+(animate)                `scarab_151.mps' or
+(animate)                `scarab_151.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_152.eps',
+(animate)                `scarab_152.mps' or
+(animate)                `scarab_152.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_153.eps',
+(animate)                `scarab_153.mps' or
+(animate)                `scarab_153.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_154.eps',
+(animate)                `scarab_154.mps' or
+(animate)                `scarab_154.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_155.eps',
+(animate)                `scarab_155.mps' or
+(animate)                `scarab_155.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+! Interruption.
+\GenericError  ...                                
+                                                  \endgroup 
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_156.eps',
+(animate)                `scarab_156.mps' or
+(animate)                `scarab_156.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_157.eps',
+(animate)                `scarab_157.mps' or
+(animate)                `scarab_157.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+
+! Package animate Error: None of the files
+(animate)                `scarab_158.eps',
+(animate)                `scarab_158.mps' or
+(animate)                `scarab_158.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? ^^X
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
+? ^^X
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
+? 
+! Interruption.
+\GenericError  ...                                
+                                                  \endgroup 
+l.630 ]{12}{scarab_}{0}{253}
+                            
+? 
+! Emergency stop.
+\GenericError  ...                                
+                                                  \endgroup 
+l.630 ]{12}{scarab_}{0}{253}
+                            
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 28648 strings out of 495029
+ 524836 string characters out of 6181523
+ 713972 words of memory out of 5000000
+ 31085 multiletter control sequences out of 15000+600000
+ 77789 words of font info for 55 fonts, out of 8000000 for 9000
+ 15 hyphenation exceptions out of 8191
+ 55i,13n,61p,10407b,570s stack positions out of 5000i,500n,10000p,200000b,80000s
+Output written on animate.dvi (15 pages, 91028 bytes).
