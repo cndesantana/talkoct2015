@@ -8,4 +8,7 @@
 \beamer@subsectionintoc {2}{3}{Contractility}{10}{0}{2}
 \beamer@subsectionintoc {2}{4}{Elasticity}{11}{0}{2}
 \beamer@subsectionintoc {2}{5}{Energy Function}{12}{0}{2}
-\beamer@sectionintoc {3}{Acknowledgments}{15}{0}{3}
+\beamer@sectionintoc {3}{Model Dynamics}{15}{0}{3}
+\beamer@subsectionintoc {3}{1}{Sequence of Events}{15}{0}{3}
+\beamer@subsectionintoc {3}{2}{Relaxation}{17}{0}{3}
+\beamer@sectionintoc {4}{Acknowledgments}{20}{0}{4}

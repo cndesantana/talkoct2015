@@ -34,13 +34,24 @@
 \headcommand {\beamer@framepages {13}{13}}
 \headcommand {\slideentry {2}{5}{3}{14/14}{Energy Function}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\sectionentry {3}{Acknowledgments}{15}{Acknowledgments}{0}}
+\headcommand {\sectionentry {3}{Model Dynamics}{15}{Model Dynamics}{0}}
 \headcommand {\beamer@sectionpages {5}{14}}
 \headcommand {\beamer@subsectionpages {12}{14}}
-\headcommand {\slideentry {3}{0}{4}{15/15}{}{0}}
-\headcommand {\beamer@framepages {15}{15}}
-\headcommand {\beamer@partpages {1}{15}}
-\headcommand {\beamer@subsectionpages {15}{15}}
-\headcommand {\beamer@sectionpages {15}{15}}
-\headcommand {\beamer@documentpages {15}}
-\headcommand {\def \inserttotalframenumber {12}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{15}{Sequence of Events}}\headcommand {\beamer@subsectionpages {15}{14}}
+\headcommand {\slideentry {3}{1}{1}{15/16}{Sequence of Events}{0}}
+\headcommand {\beamer@framepages {15}{16}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{17}{Relaxation}}\headcommand {\beamer@subsectionpages {15}{16}}
+\headcommand {\slideentry {3}{2}{1}{17/18}{Relaxation}{0}}
+\headcommand {\beamer@framepages {17}{18}}
+\headcommand {\slideentry {3}{2}{2}{19/19}{Relaxation}{0}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\sectionentry {4}{Acknowledgments}{20}{Acknowledgments}{0}}
+\headcommand {\beamer@sectionpages {15}{19}}
+\headcommand {\beamer@subsectionpages {17}{19}}
+\headcommand {\slideentry {4}{0}{3}{20/20}{}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\beamer@partpages {1}{20}}
+\headcommand {\beamer@subsectionpages {20}{20}}
+\headcommand {\beamer@sectionpages {20}{20}}
+\headcommand {\beamer@documentpages {20}}
+\headcommand {\def \inserttotalframenumber {15}}
