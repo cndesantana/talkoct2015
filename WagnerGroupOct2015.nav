@@ -4,102 +4,101 @@
 \headcommand {\sectionentry {1}{Motivation}{2}{Motivation}{0}}
 \headcommand {\beamer@sectionpages {1}{1}}
 \headcommand {\beamer@subsectionpages {1}{1}}
-\headcommand {\beamer@subsectionentry {0}{1}{1}{2}{From Real data}}\headcommand {\beamer@subsectionpages {2}{1}}
-\headcommand {\slideentry {1}{1}{1}{2/2}{From Real data}{0}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{2}{Real data}}\headcommand {\beamer@subsectionpages {2}{1}}
+\headcommand {\slideentry {1}{1}{1}{2/2}{Real data}{0}}
 \headcommand {\beamer@framepages {2}{2}}
-\headcommand {\beamer@subsectionentry {0}{1}{2}{3}{From theory}}\headcommand {\beamer@subsectionpages {2}{2}}
-\headcommand {\slideentry {1}{2}{1}{3/3}{From theory}{0}}
-\headcommand {\beamer@framepages {3}{3}}
-\headcommand {\slideentry {1}{2}{2}{4/4}{From theory}{0}}
-\headcommand {\beamer@framepages {4}{4}}
-\headcommand {\sectionentry {2}{General Assumptions}{5}{General Assumptions}{0}}
-\headcommand {\beamer@sectionpages {2}{4}}
-\headcommand {\beamer@subsectionpages {3}{4}}
-\headcommand {\beamer@subsectionentry {0}{2}{1}{5}{General Assumptions}}\headcommand {\beamer@subsectionpages {5}{4}}
-\headcommand {\slideentry {2}{1}{1}{5/8}{General Assumptions}{0}}
-\headcommand {\beamer@framepages {5}{8}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{9}{Line Tension}}\headcommand {\beamer@subsectionpages {5}{8}}
-\headcommand {\slideentry {2}{2}{1}{9/9}{Line Tension}{0}}
-\headcommand {\beamer@framepages {9}{9}}
-\headcommand {\beamer@subsectionentry {0}{2}{3}{10}{Contractility}}\headcommand {\beamer@subsectionpages {9}{9}}
-\headcommand {\slideentry {2}{3}{1}{10/10}{Contractility}{0}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{3}{General Assumptions}}\headcommand {\beamer@subsectionpages {2}{2}}
+\headcommand {\slideentry {1}{2}{1}{3/6}{General Assumptions}{0}}
+\headcommand {\beamer@framepages {3}{6}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{7}{Junctional Network}}\headcommand {\beamer@subsectionpages {3}{6}}
+\headcommand {\slideentry {1}{3}{1}{7/9}{Junctional Network}{0}}
+\headcommand {\beamer@framepages {7}{9}}
+\headcommand {\sectionentry {2}{Different cell shapes}{10}{Different cell shapes}{0}}
+\headcommand {\beamer@sectionpages {2}{9}}
+\headcommand {\beamer@subsectionpages {7}{9}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{10}{Different Kind of tissues}}\headcommand {\beamer@subsectionpages {10}{9}}
+\headcommand {\slideentry {2}{1}{1}{10/10}{Different Kind of tissues}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\beamer@subsectionentry {0}{2}{4}{11}{Elasticity}}\headcommand {\beamer@subsectionpages {10}{10}}
-\headcommand {\slideentry {2}{4}{1}{11/11}{Elasticity}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{11}{Different Developmental stages}}\headcommand {\beamer@subsectionpages {10}{10}}
+\headcommand {\slideentry {2}{2}{1}{11/11}{Different Developmental stages}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\beamer@subsectionentry {0}{2}{5}{12}{Energy Function}}\headcommand {\beamer@subsectionpages {11}{11}}
-\headcommand {\slideentry {2}{5}{1}{12/12}{Energy Function}{0}}
+\headcommand {\sectionentry {3}{General Assumptions}{12}{General Assumptions}{0}}
+\headcommand {\beamer@sectionpages {10}{11}}
+\headcommand {\beamer@subsectionpages {11}{11}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{12}{Cell Mechanics}}\headcommand {\beamer@subsectionpages {12}{11}}
+\headcommand {\slideentry {3}{1}{1}{12/12}{Cell Mechanics}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\slideentry {2}{5}{2}{13/13}{Energy Function}{0}}
-\headcommand {\beamer@framepages {13}{13}}
-\headcommand {\slideentry {2}{5}{3}{14/14}{Energy Function}{0}}
-\headcommand {\beamer@framepages {14}{14}}
-\headcommand {\sectionentry {3}{Model Dynamics}{15}{Model Dynamics}{0}}
-\headcommand {\beamer@sectionpages {5}{14}}
-\headcommand {\beamer@subsectionpages {12}{14}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{15}{Sequence of Events}}\headcommand {\beamer@subsectionpages {15}{14}}
-\headcommand {\slideentry {3}{1}{1}{15/16}{Sequence of Events}{0}}
-\headcommand {\beamer@framepages {15}{16}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{17}{Relaxation}}\headcommand {\beamer@subsectionpages {15}{16}}
-\headcommand {\slideentry {3}{2}{1}{17/17}{Relaxation}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{13}{Energy Function}}\headcommand {\beamer@subsectionpages {12}{12}}
+\headcommand {\slideentry {3}{2}{1}{13/15}{Energy Function}{0}}
+\headcommand {\beamer@framepages {13}{15}}
+\headcommand {\slideentry {3}{2}{2}{16/16}{Energy Function}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\slideentry {3}{2}{3}{17/17}{Energy Function}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\slideentry {3}{2}{2}{18/18}{Relaxation}{0}}
-\headcommand {\beamer@framepages {18}{18}}
-\headcommand {\slideentry {3}{2}{3}{19/19}{Relaxation}{0}}
-\headcommand {\beamer@framepages {19}{19}}
-\headcommand {\slideentry {3}{2}{4}{20/20}{Relaxation}{0}}
+\headcommand {\sectionentry {4}{Model Dynamics}{18}{Model Dynamics}{0}}
+\headcommand {\beamer@sectionpages {12}{17}}
+\headcommand {\beamer@subsectionpages {13}{17}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{18}{Sequence of Events}}\headcommand {\beamer@subsectionpages {18}{17}}
+\headcommand {\slideentry {4}{1}{1}{18/19}{Sequence of Events}{0}}
+\headcommand {\beamer@framepages {18}{19}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{20}{Relaxation}}\headcommand {\beamer@subsectionpages {18}{19}}
+\headcommand {\slideentry {4}{2}{1}{20/20}{Relaxation}{0}}
 \headcommand {\beamer@framepages {20}{20}}
-\headcommand {\slideentry {3}{2}{5}{21/22}{Relaxation}{0}}
-\headcommand {\beamer@framepages {21}{22}}
-\headcommand {\slideentry {3}{2}{6}{23/23}{Relaxation}{0}}
+\headcommand {\slideentry {4}{2}{2}{21/21}{Relaxation}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\slideentry {4}{2}{3}{22/22}{Relaxation}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\slideentry {4}{2}{4}{23/23}{Relaxation}{0}}
 \headcommand {\beamer@framepages {23}{23}}
-\headcommand {\slideentry {3}{2}{7}{24/24}{Relaxation}{0}}
-\headcommand {\beamer@framepages {24}{24}}
-\headcommand {\slideentry {3}{2}{8}{25/25}{Relaxation}{0}}
-\headcommand {\beamer@framepages {25}{25}}
-\headcommand {\beamer@subsectionentry {0}{3}{3}{26}{Cell Proliferation}}\headcommand {\beamer@subsectionpages {17}{25}}
-\headcommand {\slideentry {3}{3}{1}{26/26}{Cell Proliferation}{0}}
+\headcommand {\slideentry {4}{2}{5}{24/25}{Relaxation}{0}}
+\headcommand {\beamer@framepages {24}{25}}
+\headcommand {\slideentry {4}{2}{6}{26/26}{Relaxation}{0}}
 \headcommand {\beamer@framepages {26}{26}}
-\headcommand {\beamer@subsectionentry {0}{3}{4}{27}{Cell Growth}}\headcommand {\beamer@subsectionpages {26}{26}}
-\headcommand {\slideentry {3}{4}{1}{27/28}{Cell Growth}{0}}
-\headcommand {\beamer@framepages {27}{28}}
-\headcommand {\slideentry {3}{4}{2}{29/29}{Cell Growth}{0}}
-\headcommand {\beamer@framepages {29}{29}}
-\headcommand {\beamer@subsectionentry {0}{3}{5}{30}{Cell Division}}\headcommand {\beamer@subsectionpages {27}{29}}
-\headcommand {\slideentry {3}{5}{1}{30/30}{Cell Division}{0}}
-\headcommand {\beamer@framepages {30}{30}}
-\headcommand {\slideentry {3}{5}{2}{31/31}{Cell Division}{0}}
+\headcommand {\slideentry {4}{2}{7}{27/27}{Relaxation}{0}}
+\headcommand {\beamer@framepages {27}{27}}
+\headcommand {\beamer@subsectionentry {0}{4}{3}{28}{Cell Proliferation}}\headcommand {\beamer@subsectionpages {20}{27}}
+\headcommand {\slideentry {4}{3}{1}{28/28}{Cell Proliferation}{0}}
+\headcommand {\beamer@framepages {28}{28}}
+\headcommand {\beamer@subsectionentry {0}{4}{4}{29}{Cell Growth}}\headcommand {\beamer@subsectionpages {28}{28}}
+\headcommand {\slideentry {4}{4}{1}{29/30}{Cell Growth}{0}}
+\headcommand {\beamer@framepages {29}{30}}
+\headcommand {\slideentry {4}{4}{2}{31/31}{Cell Growth}{0}}
 \headcommand {\beamer@framepages {31}{31}}
-\headcommand {\slideentry {3}{5}{3}{32/32}{Cell Division}{0}}
+\headcommand {\beamer@subsectionentry {0}{4}{5}{32}{Cell Division}}\headcommand {\beamer@subsectionpages {29}{31}}
+\headcommand {\slideentry {4}{5}{1}{32/32}{Cell Division}{0}}
 \headcommand {\beamer@framepages {32}{32}}
-\headcommand {\slideentry {3}{5}{4}{33/33}{Cell Division}{0}}
+\headcommand {\slideentry {4}{5}{2}{33/33}{Cell Division}{0}}
 \headcommand {\beamer@framepages {33}{33}}
-\headcommand {\slideentry {3}{5}{5}{34/34}{Cell Division}{0}}
+\headcommand {\slideentry {4}{5}{3}{34/34}{Cell Division}{0}}
 \headcommand {\beamer@framepages {34}{34}}
-\headcommand {\beamer@subsectionentry {0}{3}{6}{35}{Steady State}}\headcommand {\beamer@subsectionpages {30}{34}}
-\headcommand {\slideentry {3}{6}{1}{35/35}{Steady State}{0}}
+\headcommand {\slideentry {4}{5}{4}{35/35}{Cell Division}{0}}
 \headcommand {\beamer@framepages {35}{35}}
-\headcommand {\sectionentry {4}{Results}{36}{Results}{0}}
-\headcommand {\beamer@sectionpages {15}{35}}
-\headcommand {\beamer@subsectionpages {35}{35}}
-\headcommand {\beamer@subsectionentry {0}{4}{1}{36}{Results}}\headcommand {\beamer@subsectionpages {36}{35}}
-\headcommand {\slideentry {4}{1}{1}{36/36}{Results}{0}}
+\headcommand {\slideentry {4}{5}{5}{36/36}{Cell Division}{0}}
 \headcommand {\beamer@framepages {36}{36}}
-\headcommand {\slideentry {4}{1}{2}{37/37}{Results}{0}}
+\headcommand {\beamer@subsectionentry {0}{4}{6}{37}{Steady State}}\headcommand {\beamer@subsectionpages {32}{36}}
+\headcommand {\slideentry {4}{6}{1}{37/37}{Steady State}{0}}
 \headcommand {\beamer@framepages {37}{37}}
-\headcommand {\sectionentry {5}{Next Steps}{38}{Next Steps}{0}}
-\headcommand {\beamer@sectionpages {36}{37}}
-\headcommand {\beamer@subsectionpages {36}{37}}
-\headcommand {\beamer@subsectionentry {0}{5}{1}{38}{Next Steps}}\headcommand {\beamer@subsectionpages {38}{37}}
-\headcommand {\slideentry {5}{1}{1}{38/42}{Next Steps}{0}}
-\headcommand {\beamer@framepages {38}{42}}
-\headcommand {\sectionentry {6}{Acknowledgments}{43}{Acknowledgments}{0}}
-\headcommand {\beamer@sectionpages {38}{42}}
-\headcommand {\beamer@subsectionpages {38}{42}}
-\headcommand {\slideentry {6}{0}{2}{43/43}{}{0}}
-\headcommand {\beamer@framepages {43}{43}}
-\headcommand {\beamer@partpages {1}{43}}
-\headcommand {\beamer@subsectionpages {43}{43}}
-\headcommand {\beamer@sectionpages {43}{43}}
-\headcommand {\beamer@documentpages {43}}
-\headcommand {\def \inserttotalframenumber {33}}
+\headcommand {\sectionentry {5}{Results}{38}{Results}{0}}
+\headcommand {\beamer@sectionpages {18}{37}}
+\headcommand {\beamer@subsectionpages {37}{37}}
+\headcommand {\beamer@subsectionentry {0}{5}{1}{38}{Results}}\headcommand {\beamer@subsectionpages {38}{37}}
+\headcommand {\slideentry {5}{1}{1}{38/38}{Results}{0}}
+\headcommand {\beamer@framepages {38}{38}}
+\headcommand {\slideentry {5}{1}{2}{39/39}{Results}{0}}
+\headcommand {\beamer@framepages {39}{39}}
+\headcommand {\sectionentry {6}{Next Steps}{40}{Next Steps}{0}}
+\headcommand {\beamer@sectionpages {38}{39}}
+\headcommand {\beamer@subsectionpages {38}{39}}
+\headcommand {\beamer@subsectionentry {0}{6}{1}{40}{Next Steps}}\headcommand {\beamer@subsectionpages {40}{39}}
+\headcommand {\slideentry {6}{1}{1}{40/44}{Next Steps}{0}}
+\headcommand {\beamer@framepages {40}{44}}
+\headcommand {\sectionentry {7}{Acknowledgments}{45}{Acknowledgments}{0}}
+\headcommand {\beamer@sectionpages {40}{44}}
+\headcommand {\beamer@subsectionpages {40}{44}}
+\headcommand {\slideentry {7}{0}{2}{45/45}{}{0}}
+\headcommand {\beamer@framepages {45}{45}}
+\headcommand {\beamer@partpages {1}{45}}
+\headcommand {\beamer@subsectionpages {45}{45}}
+\headcommand {\beamer@sectionpages {45}{45}}
+\headcommand {\beamer@documentpages {45}}
+\headcommand {\def \inserttotalframenumber {31}}
