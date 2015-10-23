@@ -31,6 +31,17 @@
 \usepackage{subfigure}
 %\usepackage{natbib}
 %\usepackage{biblatex}
+%\usepackage[backend=bibtex]{biblatex}
+\usepackage{natbib}
+\usepackage{bibentry}
+\bibliographystyle{apalike}
+\usepackage{chngcntr}
+
+\counterwithin*{footnote}{page}
+\newcommand\footcite[1]{\footnote{\bibentry{#1}}\label{\thepage:#1}}
+\newcommand\secondcite[1]{\textsuperscript{\ref{\thepage:#1}}}
+
+\bibliography{references.bib}
 \usepackage{multicol}
 \usepackage{epsfig}
 \usepackage{graphicx}
@@ -64,6 +75,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
+\nobibliography{\jobname}
 \tikzstyle{every picture}+=[remember picture]
 \frame{ \titlepage \flushleft {{\upshape \tiny Charles N. de Santana,\\\em{Institute of Evolutionary Biology and Environmental Studies, UZH}.\\ 
 \vspace{0.75 in}
@@ -76,6 +88,29 @@
 
 %%Movie of tissue growth
 \section{Motivation}
+
+\subsection{Junctional Network}
+\frame{\frametitle{Junctional network}
+\setbeamercolor{uppercol}{fg=black,bg=white}
+\setbeamercolor{lowercol}{fg=black,bg=white}
+\begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
+\begin{minipage}[t]{6.1cm}
+\begin{columns}
+    \begin{column}{\textwidth}
+        \hspace{4cm}\includegraphics[width=6cm]{twodimensions.png}
+    \end{column}
+    \begin{column}{0.8\textwidth}
+        \begin{enumerate}
+        \item < 1-| alert@1 > Epithelia cells are connected to each other via adhesive molecules.
+        \item < 2-| alert@2 > Epithelia cells establish a \textbf{junctional adherent network} near their apical region.
+        \item < 3-| alert@3 > Epithelia tissues are simpler to be studied (2-dimensional).
+        \end{enumerate}
+    \end{column}
+\end{columns}
+\end{minipage}
+\end{beamerboxesrounded}
+}
+
 \subsection{Real data}
 \frame{\frametitle{Tissue growth: cells as polygons, tissues as networks}
 \setbeamercolor{uppercol}{fg=black,bg=pink}
@@ -100,41 +135,17 @@
     \end{column}
     \begin{column}{0.8\textwidth}
         \begin{enumerate}
-        \item < 1-| alert@1 > Tissue as a network of cells.
-        \item < 2-| alert@2 > Cells as polygons.
-        \item < 3-| alert@1 > Each 2 Cells share 1 Edge.
-        \item < 4-| alert@2 > Each Edge is composed by 2 Vertices.
+        \item < 1-| alert@1 > Tissue as a network of cells\footnotemark.
+        \item < 2-| alert@2 > Cells as polygons\footnotemark[1].
+        \item < 3-| alert@1 > Each 2 Cells share 1 Edge\footnotemark[1].
+        \item < 4-| alert@2 > Each Edge is composed by 2 Vertices\footnotemark[1].
         \end{enumerate}
     \end{column}
 \end{columns}
 \end{minipage}
 \end{beamerboxesrounded}
+\tiny{\footnotetext[1]{Farhadifar et al. \emph{The influence of cell mechanics, cell-cell interactions, and proliferation on epithelial packing.} Current Biology 17.24 (2007): 2095-2104.}}
 }
-
-
-\subsection{Junctional Network}
-\frame{\frametitle{Junctional network}
-\setbeamercolor{uppercol}{fg=black,bg=white}
-\setbeamercolor{lowercol}{fg=black,bg=white}
-\begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
-\begin{minipage}[t]{6.1cm}
-\begin{columns}
-    \begin{column}{\textwidth}
-        \hspace{4cm}\includegraphics[width=6cm]{twodimensions.png}
-    \end{column}
-    \begin{column}{0.8\textwidth}
-        \begin{enumerate}
-        \item < 1-| alert@1 > Epithelia cells are connected to each other via adhesive molecules.
-        \item < 2-| alert@2 > Epithelia cells establish a \textbf{junctional adherent network} near their apical region.
-        \item < 3-| alert@3 > Epithelia tissues are simpler to be studied (2-dimensional).
-        \end{enumerate}
-    \end{column}
-\end{columns}
-\end{minipage}
-\end{beamerboxesrounded}
-}
-
-
 
 \section{Different cell shapes}
 \subsection{Different Kind of tissues}
@@ -146,12 +157,12 @@
 \begin{minipage}[t]{6.5cm}
 \begin{columns}
     \begin{column}{\textwidth}
-        \hspace{6cm} \includegraphics[height=6cm,width=6cm]{./tissueskinds.png}
+        \hspace{8cm} \includegraphics[width=6cm]{./tissueskinds.png}
     \end{column}
     \begin{column}{0.8\textwidth}
-        \hspace{7cm} \includegraphics[height=2cm,width=2cm]{./drosophila.jpg}
-        \hspace{7cm} \includegraphics[height=2cm,width=2cm]{./hydra.jpg}
-        \hspace{7cm} \includegraphics[height=2cm,width=2cm]{./xenopus.jpg}
+        \hspace{7cm} \includegraphics[width=2cm]{./drosophila.jpg}
+        \hspace{7cm} \includegraphics[width=2cm]{./hydra.jpg}
+        \hspace{7cm} \includegraphics[width=2cm]{./xenopus.jpg}
     \end{column}
 \end{columns}
 \end{minipage}
@@ -180,23 +191,24 @@
 \begin{minipage}[t]{6.5cm}
 \begin{columns}
     \begin{column}{\textwidth}
-        \hspace{6.5cm}\includegraphics[height=6cm]{./junctionalnetwork.png}
+        \hspace{6.5cm}\includegraphics[height=6cm]{./junctionalnetwork_isolated.png}
     \end{column}
     \begin{column}{0.8\textwidth}
         \begin{itemize}
-        \item Edge's Line tension ($\Lambda$) is associated to Edge's length.
-        \item Cell's Contractility ($\Gamma$) is associated to Cell's Perimeter.
-        \item Cell's Elasticity ($K$) is associated to Cell's Area.
+        \item < 1-| alert@1 > Edge's Line tension ($\Lambda$) is associated to Edge's length\footnotemark.
+        \item < 2-| alert@2 > Cell's Contractility ($\Gamma$) is associated to Cell's Perimeter\footnotemark[1].
+        \item < 3-| alert@3 > Cell's Elasticity ($K$) is associated to Cell's Area\footnotemark[1].
         \end{itemize}
     \end{column}
 \end{columns}
 \end{minipage}
 \end{beamerboxesrounded}
+\tiny{\footnotetext[1]{Farhadifar et al. \emph{The influence of cell mechanics, cell-cell interactions, and proliferation on epithelial packing.} Current Biology 17.24 (2007): 2095-2104.}}
 }
 
 \subsection{Energy Function}
 %%Minimal Energy
-\frame{\frametitle{Force Balance Energy Function}
+\frame{\frametitle{Force Balance Energy Function\footnotemark}
 \setbeamercolor{uppercol}{fg=black,bg=pink}
 \setbeamercolor{lowercol}{fg=black,bg=pink}
 \begin{align*}
@@ -218,13 +230,18 @@
 %        \path[->]<2-> (n3) edge [out=0, in=-90] (t3);
 %        \path[->]<3-> (n2) edge [bend right] (t2);
 %\end{tikzpicture}
+\tiny{\footnotetext[1]{Farhadifar et al. \emph{The influence of cell mechanics, cell-cell interactions, and proliferation on epithelial packing.} Current Biology 17.24 (2007): 2095-2104.}}
 }
 
 %%Minimal Energy
-\frame{\frametitle{Force Balance Energy Function}
+
+\frame{\frametitle{Force Balance Energy Function\footnotemark}
 \setbeamercolor{uppercol}{fg=black,bg=pink}
 \setbeamercolor{lowercol}{fg=black,bg=pink}
-$F = \sum_{\alpha}{\frac{K_{\alpha}}{2}(A_{\alpha} - A_{\alpha}^{(0)})^{2} ~ + ~ \sum_{(i,j)}{\Lambda_{ij}L_{ij}} ~ + ~  \sum_{\alpha}{\frac{\Gamma_{\alpha}}{2}L_{\alpha}^{2}}}$
+\begin{align*}
+\hspace{-0.3cm}F = \tikz[baseline]{\node[fill=blue!20,ellipse,anchor=base] (t1) {$\sum_{\alpha}\frac{K_{\alpha}}{2}(A_{\alpha} - A_{\alpha}^{(0)})^{2}$};} ~ + ~ \tikz[baseline]{\node[fill=yellow!20,ellipse,anchor=base] (t2) {$\sum_{(i,j)}{\Lambda_{ij}L_{ij}}$};}  + \tikz[baseline]{\node[fill=green!20,ellipse,anchor=base] (t3) {$\sum_{\alpha}{\frac{\Gamma_{\alpha}}{2}L_{\alpha}^{2}}$};}
+\end{align*}
+%$F = \sum_{\alpha}{\frac{K_{\alpha}}{2}(A_{\alpha} - A_{\alpha}^{(0)})^{2} ~ + ~ \sum_{(i,j)}{\Lambda_{ij}L_{ij}} ~ + ~  \sum_{\alpha}{\frac{\Gamma_{\alpha}}{2}L_{\alpha}^{2}}}$
 \begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
 \begin{minipage}[t]{6.1cm}
 \begin{columns}
@@ -232,18 +249,22 @@ $F = \sum_{\alpha}{\frac{K_{\alpha}}{2}(A_{\alpha} - A_{\alpha}^{(0)})^{2} ~ + ~
        \hspace{0.4cm} \includegraphics[height=5cm,width=5cm]{network_of_cells.png}
     \end{column}
     \begin{column}{0.8\textwidth}
-       We keep the physical properties of the cells fixed during the simulation. So, in order to satisfy the \textbf{Minimal Energy's Assumption} theh positions of the vertices need to change.
+       We keep the physical properties of the cells fixed during the simulation. So, in order to satisfy the \textbf{Minimal Energy's Assumption} the positions of the vertices need to change.
     \end{column}
 \end{columns}
 \end{minipage}
 \end{beamerboxesrounded}
+\tiny{\footnotetext[1]{Farhadifar et al. \emph{The influence of cell mechanics, cell-cell interactions, and proliferation on epithelial packing.} Current Biology 17.24 (2007): 2095-2104.}}
 }
 
 %%Minimal Energy
-\frame{\frametitle{Preferred Cell's Area $A_{\alpha}^{(0)}$}
+\frame{\frametitle{Preferred Cell's Area $A_{\alpha}^{(0)}$\footnotemark}
 \setbeamercolor{uppercol}{fg=black,bg=pink}
 \setbeamercolor{lowercol}{fg=black,bg=pink}
-$F = \sum_{\alpha}{\frac{K_{\alpha}}{2}(A_{\alpha} - A_{\alpha}^{(0)})^{2} ~ + ~ \sum_{(i,j)}{\Lambda_{ij}L_{ij}} ~ + ~  \sum_{\alpha}{\frac{\Gamma_{\alpha}}{2}L_{\alpha}^{2}}}$
+%$F = \sum_{\alpha}{\frac{K_{\alpha}}{2}(A_{\alpha} - A_{\alpha}^{(0)})^{2} ~ + ~ \sum_{(i,j)}{\Lambda_{ij}L_{ij}} ~ + ~  \sum_{\alpha}{\frac{\Gamma_{\alpha}}{2}L_{\alpha}^{2}}}$
+\begin{align*}
+\hspace{-0.3cm}F = \tikz[baseline]{\node[fill=blue!20,ellipse,anchor=base] (t1) {$\sum_{\alpha}\frac{K_{\alpha}}{2}(A_{\alpha} - A_{\alpha}^{(0)})^{2}$};} ~ + ~ \tikz[baseline]{\node[fill=yellow!20,ellipse,anchor=base] (t2) {$\sum_{(i,j)}{\Lambda_{ij}L_{ij}}$};}  + \tikz[baseline]{\node[fill=green!20,ellipse,anchor=base] (t3) {$\sum_{\alpha}{\frac{\Gamma_{\alpha}}{2}L_{\alpha}^{2}}$};}
+\end{align*}
 \begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
 \begin{minipage}[t]{6.1cm}
 \begin{columns}
@@ -256,13 +277,14 @@ $F = \sum_{\alpha}{\frac{K_{\alpha}}{2}(A_{\alpha} - A_{\alpha}^{(0)})^{2} ~ + ~
 \end{columns}
 \end{minipage}
 \end{beamerboxesrounded}
+\tiny{\footnotetext[1]{Farhadifar et al. \emph{The influence of cell mechanics, cell-cell interactions, and proliferation on epithelial packing.} Current Biology 17.24 (2007): 2095-2104.}}
 }
 
 
 \section{Model Dynamics}
 \subsection{Sequence of Events}
 %%tissue growth remarks
-\frame{\frametitle{Sequence of Events}
+\frame{\frametitle{Sequence of Events\footnotemark}
 \setbeamercolor{uppercol}{fg=black,bg=pink}
 \setbeamercolor{lowercol}{fg=black,bg=pink}
 \begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
@@ -280,14 +302,16 @@ $F = \sum_{\alpha}{\frac{K_{\alpha}}{2}(A_{\alpha} - A_{\alpha}^{(0)})^{2} ~ + ~
 \end{columns}
 \end{minipage}
 \end{beamerboxesrounded}
+\tiny{\footnotetext[1]{Farhadifar et al. \emph{The influence of cell mechanics, cell-cell interactions, and proliferation on epithelial packing.} Current Biology 17.24 (2007): 2095-2104.}}
 }
 
 
 \subsection{Relaxation}
 %%tissue growth remarks
-\frame{\frametitle{Relaxation}
+\frame{\frametitle{Relaxation\footnotemark}
 \setbeamercolor{uppercol}{fg=black,bg=pink}
 \setbeamercolor{lowercol}{fg=black,bg=pink}
+Rectangular tissue with 5x5 cells
 \begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
 \begin{minipage}[t]{6.1cm}
 \begin{columns}
@@ -302,13 +326,15 @@ $F = \sum_{\alpha}{\frac{K_{\alpha}}{2}(A_{\alpha} - A_{\alpha}^{(0)})^{2} ~ + ~
 \end{columns}
 \end{minipage}
 \end{beamerboxesrounded}
+\tiny{\footnotetext[1]{Farhadifar et al. \emph{The influence of cell mechanics, cell-cell interactions, and proliferation on epithelial packing.} Current Biology 17.24 (2007): 2095-2104.}}
 }
 
 
 %%tissue growth remarks
-\frame{\frametitle{Relaxation}
+\frame{\frametitle{Relaxation\footnotemark}
 \setbeamercolor{uppercol}{fg=black,bg=pink}
 \setbeamercolor{lowercol}{fg=black,bg=pink}
+Rectangular tissue with 5x5 cells
 \begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
 \begin{minipage}[t]{6.1cm}
 \begin{columns}
@@ -317,19 +343,21 @@ $F = \sum_{\alpha}{\frac{K_{\alpha}}{2}(A_{\alpha} - A_{\alpha}^{(0)})^{2} ~ + ~
     \end{column}
     \begin{column}{0.8\textwidth}
         \begin{itemize}
-        \item 2 - The position of the vertices is defined by a \emph{Verlet Function}\cite{Farhadifar} in which the accelleration is defined by the total force on the junctions of the tissue ($r(t ~ + ~ \Delta t) = ~ 2r(t) ~ - ~ r(t ~ - ~ \Delta t) + a(t)\Delta t^{2} $).
+        \item 2 - The position of the vertices is defined by a \emph{Verlet Function} in which the accelleration is defined by the total force on the junctions of the tissue $r(t ~ + ~ \Delta t) = ~ 2r(t) ~ - ~ r(t ~ - ~ \Delta t) + a(t)\Delta t^{2} $.
         \end{itemize}
     \end{column}
 \end{columns}
 \end{minipage}
 \end{beamerboxesrounded}
+\tiny{\footnotetext[1]{Farhadifar et al. \emph{The influence of cell mechanics, cell-cell interactions, and proliferation on epithelial packing.} Current Biology 17.24 (2007): 2095-2104.}}
 }
 
 
 %%tissue growth remarks
-\frame{\frametitle{Relaxation}
+\frame{\frametitle{Relaxation\footnotemark}
 \setbeamercolor{uppercol}{fg=black,bg=pink}
 \setbeamercolor{lowercol}{fg=black,bg=pink}
+Rectangular tissue with 5x5 cells
 \begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
 \begin{minipage}[t]{6.1cm}
 \begin{columns}
@@ -344,12 +372,14 @@ $F = \sum_{\alpha}{\frac{K_{\alpha}}{2}(A_{\alpha} - A_{\alpha}^{(0)})^{2} ~ + ~
 \end{columns}
 \end{minipage}
 \end{beamerboxesrounded}
+\tiny{\footnotetext[1]{Farhadifar et al. \emph{The influence of cell mechanics, cell-cell interactions, and proliferation on epithelial packing.} Current Biology 17.24 (2007): 2095-2104.}}
 }
 
 %%tissue growth remarks
 \frame{\frametitle{Relaxation}
 \setbeamercolor{uppercol}{fg=black,bg=pink}
 \setbeamercolor{lowercol}{fg=black,bg=pink}
+Rectangular tissue with 5x5 cells
 \begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
 \begin{minipage}[t]{6.1cm}
 \begin{columns}
@@ -372,7 +402,7 @@ $F = \sum_{\alpha}{\frac{K_{\alpha}}{2}(A_{\alpha} - A_{\alpha}^{(0)})^{2} ~ + ~
 \setbeamercolor{uppercol}{fg=black,bg=pink}
 \setbeamercolor{lowercol}{fg=black,bg=pink}
 \begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
-\begin{minipage}[t]{6.1cm}
+\begin{minipage}[t]{10cm}
     \begin{enumerate}
     \item < 1-| alert@1 > We define \textbf{\emph{regularness}} as a dimensionless measure to say how regular the cells of a tissue are.
     \item < 2-| alert@1 > Regularness is defined as: $Reg = \frac{sd(L_{ij})}{mean(L_{ij})}$ accross all the edges.
@@ -388,21 +418,17 @@ $F = \sum_{\alpha}{\frac{K_{\alpha}}{2}(A_{\alpha} - A_{\alpha}^{(0)})^{2} ~ + ~
 \setbeamercolor{lowercol}{fg=black,bg=pink}
 We define \textbf{\emph{regularness}} as a dimensionless measure to say how regular the cells of a tissue are.
 \begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
-\begin{minipage}[t]{6.1cm}
+\begin{minipage}[t]{8cm}
 \begin{columns}
     \begin{column}{\textwidth}
-        \begin{center}
-            $Reg ~ \apeq ~ 0$
-            $(Lambda,Gamma) = (-0.25,0.15)$
-        \end{center}
-        \hspace{1cm}\flashmovie[auto=1,loop=1,controlbar=1,engine=flv-player,width=5cm,height=5cm]{regular_relaxation.flv}
+        $Reg ~ \apeq ~ 0$\\
+        $(Lambda,Gamma) = (0,0.15)$
+        \hspace{2cm}\flashmovie[auto=1,loop=1,controlbar=1,engine=flv-player,width=5cm,height=5cm]{regular_relaxation.flv}
     \end{column}
     \begin{column}{\textwidth}
-        \begin{center}
-            $Reg ~ > ~ 0$
-            $(Lambda,Gamma) = (-0.6,0.08)$
-        \end{center}
-        \hspace{1cm}\flashmovie[auto=1,loop=1,controlbar=1,engine=flv-player,width=5cm,height=5cm]{soft_relaxation.flv}
+        $Reg ~ > ~ 0$\\
+        $(Lambda,Gamma) = (-0.6,0.08)$
+        \hspace{2cm}\flashmovie[auto=1,loop=1,controlbar=1,engine=flv-player,width=5cm,height=5cm]{soft_relaxation.flv}
     \end{column}
 \end{columns}
 \end{minipage}
@@ -460,7 +486,7 @@ We define \textbf{\emph{regularness}} as a dimensionless measure to say how regu
 
 \subsection{Cell Growth}
 %%tissue growth remarks
-\frame{\frametitle{Cell Growth}
+\frame{\frametitle{Cell Growth\footnotemark}
 \setbeamercolor{uppercol}{fg=black,bg=pink}
 \setbeamercolor{lowercol}{fg=black,bg=pink}
 \begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
@@ -478,10 +504,11 @@ We define \textbf{\emph{regularness}} as a dimensionless measure to say how regu
 \end{columns}
 \end{minipage}
 \end{beamerboxesrounded}
+\tiny{\footnotetext[1]{Farhadifar et al. \emph{The influence of cell mechanics, cell-cell interactions, and proliferation on epithelial packing.} Current Biology 17.24 (2007): 2095-2104.}}
 }
 
 %%tissue growth remarks
-\frame{\frametitle{Cell Growth}
+\frame{\frametitle{Cell Growth\footnotemark}
 \setbeamercolor{uppercol}{fg=black,bg=pink}
 \setbeamercolor{lowercol}{fg=black,bg=pink}
 \begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
@@ -498,11 +525,12 @@ We define \textbf{\emph{regularness}} as a dimensionless measure to say how regu
 \end{columns}
 \end{minipage}
 \end{beamerboxesrounded}
+\tiny{\footnotetext[1]{Farhadifar et al. \emph{The influence of cell mechanics, cell-cell interactions, and proliferation on epithelial packing.} Current Biology 17.24 (2007): 2095-2104.}}
 }
 
 \subsection{Cell Division}
 %%tissue growth remarks
-\frame{\frametitle{Cell Division}
+\frame{\frametitle{Cell Division\footnotemark}
 \setbeamercolor{uppercol}{fg=black,bg=pink}
 \setbeamercolor{lowercol}{fg=black,bg=pink}
 \begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
@@ -519,10 +547,11 @@ We define \textbf{\emph{regularness}} as a dimensionless measure to say how regu
 \end{columns}
 \end{minipage}
 \end{beamerboxesrounded}
+\tiny{\footnotetext[1]{Farhadifar et al. \emph{The influence of cell mechanics, cell-cell interactions, and proliferation on epithelial packing.} Current Biology 17.24 (2007): 2095-2104.}}
 }
 
 %%tissue growth remarks
-\frame{\frametitle{Cell Division}
+\frame{\frametitle{Cell Division\footnotemark}
 \setbeamercolor{uppercol}{fg=black,bg=pink}
 \setbeamercolor{lowercol}{fg=black,bg=pink}
 \begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
@@ -539,11 +568,12 @@ We define \textbf{\emph{regularness}} as a dimensionless measure to say how regu
 \end{columns}
 \end{minipage}
 \end{beamerboxesrounded}
+\tiny{\footnotetext[1]{Farhadifar et al. \emph{The influence of cell mechanics, cell-cell interactions, and proliferation on epithelial packing.} Current Biology 17.24 (2007): 2095-2104.}}
 }
 
 
 %%tissue growth remarks
-\frame{\frametitle{Cell Division}
+\frame{\frametitle{Cell Division\footnotemark}
 \setbeamercolor{uppercol}{fg=black,bg=pink}
 \setbeamercolor{lowercol}{fg=black,bg=pink}
 \begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
@@ -560,11 +590,12 @@ We define \textbf{\emph{regularness}} as a dimensionless measure to say how regu
 \end{columns}
 \end{minipage}
 \end{beamerboxesrounded}
+\tiny{\footnotetext[1]{Farhadifar et al. \emph{The influence of cell mechanics, cell-cell interactions, and proliferation on epithelial packing.} Current Biology 17.24 (2007): 2095-2104.}}
 }
 
 
 %%tissue growth remarks
-\frame{\frametitle{Cell Division}
+\frame{\frametitle{Cell Division\footnotemark}
 \setbeamercolor{uppercol}{fg=black,bg=pink}
 \setbeamercolor{lowercol}{fg=black,bg=pink}
 \begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
@@ -581,11 +612,12 @@ We define \textbf{\emph{regularness}} as a dimensionless measure to say how regu
 \end{columns}
 \end{minipage}
 \end{beamerboxesrounded}
+\tiny{\footnotetext[1]{Farhadifar et al. \emph{The influence of cell mechanics, cell-cell interactions, and proliferation on epithelial packing.} Current Biology 17.24 (2007): 2095-2104.}}
 }
 
 
 %%tissue growth remarks
-\frame{\frametitle{Cell Division}
+\frame{\frametitle{Cell Division\footnotemark}
 \setbeamercolor{uppercol}{fg=black,bg=pink}
 \setbeamercolor{lowercol}{fg=black,bg=pink}
 \begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
@@ -602,6 +634,7 @@ We define \textbf{\emph{regularness}} as a dimensionless measure to say how regu
 \end{columns}
 \end{minipage}
 \end{beamerboxesrounded}
+\tiny{\footnotetext[1]{Farhadifar et al. \emph{The influence of cell mechanics, cell-cell interactions, and proliferation on epithelial packing.} Current Biology 17.24 (2007): 2095-2104.}}
 }
 
 
@@ -632,21 +665,19 @@ We define \textbf{\emph{regularness}} as a dimensionless measure to say how regu
 \frame{\frametitle{Change in shapes distribution}
 \setbeamercolor{uppercol}{fg=black,bg=pink}
 \setbeamercolor{lowercol}{fg=black,bg=pink}
-\begin{minipage}[t]{6.1cm}
+\begin{minipage}[t]{8cm}
 \begin{columns}
     \begin{column}{\textwidth}
-        \begin{center}
-            $Reg ~ \apeq ~ 0$
-            $(Lambda,Gamma) = (0,0.15)$
-        \end{center}
-        \hspace{1cm}\flashmovie[auto=1,loop=1,controlbar=1,engine=flv-player,width=5cm,height=5cm]{shapedistribution1.flv}
+        $Reg ~ \apeq ~ 0$\\
+
+        $(Lambda,Gamma) = (0,0.15)$
+        \hspace{2cm}\flashmovie[auto=1,loop=1,controlbar=1,engine=flv-player,width=5cm,height=5cm]{shapedistribution1.flv}
     \end{column}
     \begin{column}{\textwidth}
-        \begin{center}
-            $Reg ~ > ~ 0$
-            $(Lambda,Gamma) = (-0.6,0.08)$
-        \end{center}
-        \hspace{1cm}\flashmovie[auto=1,loop=1,controlbar=1,engine=flv-player,width=5cm,height=5cm]{shapedistribution2.flv}
+        $Reg ~ > ~ 0$\\
+
+        $(Lambda,Gamma) = (-0.6,0.08)$
+        \hspace{2cm}\flashmovie[auto=1,loop=1,controlbar=1,engine=flv-player,width=5cm,height=5cm]{shapedistribution2.flv}
     \end{column}
 \end{columns}
 \end{minipage}
@@ -654,11 +685,12 @@ We define \textbf{\emph{regularness}} as a dimensionless measure to say how regu
 
 
 %%tissue growth remarks
-\frame{\frametitle{Phase Space: Mean shape of cells}
+\frame{\frametitle{Phase space: Mean shape of cells (10 Repl.)}
 \setbeamercolor{uppercol}{fg=black,bg=pink}
 \setbeamercolor{lowercol}{fg=black,bg=pink}
-We observed the following Phase space of shape of cells after 10 replicates.
-\centering \includegraphics[width=8cm]{levelplot_mean_cellshape.png}
+\begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
+\centering \hspace{4cm} \includegraphics[width=10cm]{levelplot_mean_cellshape.png}
+\end{beamerboxesrounded}
 }
 
 %\frame{\frametitle{Phase Space: Deviation of shapes of cells}
@@ -680,6 +712,41 @@ We observed the following Phase space of shape of cells after 10 replicates.
 %\end{beamerboxesrounded}
 %}
 
+\section{Infos}
+\subsection{Numbers}
+%%tissue growth remarks
+\frame{\frametitle{Interesting numbers}
+\setbeamercolor{uppercol}{fg=black,bg=pink}
+\setbeamercolor{lowercol}{fg=black,bg=pink}
+\begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
+\begin{minipage}[t]{10cm}
+    \begin{enumerate}
+    \item < 1-| alert@1 > Time to run 5 replicates: $9.25 \times 10^{-13}$ AOU.
+    \item < 2-| alert@2 > = \textbf{5 days}
+    \item < 3-| alert@3 > 60k lines of code in \textbf{C++}.
+    \item < 4-| alert@4 > Being implemented since 220 days ago.
+    \item < 5-| alert@5 > Written by \emph{6 hands}: Aziza Merzouki, Orestis Malaspina, Charles de Santana.
+    \end{enumerate}
+\end{minipage}
+\end{beamerboxesrounded}
+}
+
+\subsection{Technologies}
+%%tissue growth remarks
+\frame{\frametitle{Technologies}
+\setbeamercolor{uppercol}{fg=black,bg=pink}
+\setbeamercolor{lowercol}{fg=black,bg=pink}
+\begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
+\begin{minipage}[t]{10cm}
+    \begin{enumerate}
+    \item < 1-| alert@1 > Programming language: \textbf{C++}.
+    \item < 2-| alert@2 > Visualization software: \textbf{Paraview} 
+    \item < 3-| alert@3 > Statistical analysis and plotting: \textbf{GNU R}
+    \item < 4-| alert@4 > Slides made with \textbf{\LaTeX}.
+    \end{enumerate}
+\end{minipage}
+\end{beamerboxesrounded}
+}
 
 \section{Next Steps}
 \subsection{Next Steps}

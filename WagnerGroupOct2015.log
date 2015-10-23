@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.14)  22 OCT 2015 18:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.14)  23 OCT 2015 02:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -820,22 +820,37 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@top=\skip75
 \subfig@bottom=\skip76
 )
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip77
+\bibsep=\skip78
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count175
+)
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/bibentry.sty
+Package: bibentry 2007/10/30 1.5 (PWD)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+Package: chngcntr 2009/09/02 v1.0a change counter resetting
+)
+\bibdata{references.bib}
+No file WagnerGroupOct2015.bbl.
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
-\c@tracingmulticols=\count175
+\c@tracingmulticols=\count176
 \mult@box=\box61
 \multicol@leftmargin=\dimen197
-\c@unbalance=\count176
-\c@collectmore=\count177
-\doublecol@number=\count178
-\multicoltolerance=\count179
-\multicolpretolerance=\count180
+\c@unbalance=\count177
+\c@collectmore=\count178
+\doublecol@number=\count179
+\multicoltolerance=\count180
+\multicolpretolerance=\count181
 \full@width=\dimen198
 \page@free=\dimen199
 \premulticols=\dimen200
 \postmulticols=\dimen201
-\multicolsep=\skip77
-\multicolbaselineskip=\skip78
+\multicolsep=\skip79
+\multicolbaselineskip=\skip80
 \partial@page=\box62
 \last@line=\box63
 \mult@rightbox=\box64
@@ -859,14 +874,14 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \@tempa=\box82
 \@tempa=\box83
 \@tempa=\box84
-\c@columnbadness=\count181
-\c@finalcolumnbadness=\count182
+\c@columnbadness=\count182
+\c@finalcolumnbadness=\count183
 \last@try=\dimen202
 \multicolovershoot=\dimen203
 \multicolundershoot=\dimen204
 \mult@nat@firstbox=\box85
 \colbreak@box=\box86
-\multicol@sort@counter=\count183
+\multicol@sort@counter=\count184
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
@@ -913,14 +928,14 @@ Loading kernel: messages; fonts; allocations: state,
  direction,
 \d@X=\dimen230
 \d@Y=\dimen231
-\K@=\count184
-\KK@=\count185
-\Direction=\count186
+\K@=\count185
+\KK@=\count186
+\Direction=\count187
 \K@dXdY=\dimen232
 \K@dYdX=\dimen233
 \xyread@=\read2
 \xywrite@=\write5
-\csp@=\count187
+\csp@=\count188
 Normal \dimen register pool exhausted, switching to extended pool.
 \quotPTK@=\dimen256
 
@@ -938,7 +953,7 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
  Xy-pic option: All features v.3.8
 (/usr/share/texlive/texmf-dist/tex/generic/xypic/xycurve.tex
  Xy-pic option: Curve and Spline extension v.3.12 curve,
-\crv@cnt@=\count188
+\crv@cnt@=\count189
 \crvpts@=\toks58
 \splinebox@=\box90
 \splineval@=\dimen257
@@ -964,13 +979,13 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
  Xy-pic option: Colour extension v.3.11 loaded)
 (/usr/share/texlive/texmf-dist/tex/generic/xypic/xymatrix.tex
  Xy-pic option: Matrix feature v.3.14
-\Row=\count189
-\Col=\count190
+\Row=\count190
+\Col=\count191
 \queue@=\toks59
 \queue@@=\toks60
-\qcount@=\count191
-\qcount@@=\count192
-\matrixsize@=\count193
+\qcount@=\count192
+\qcount@@=\count193
+\matrixsize@=\count194
  loaded)
 (/usr/share/texlive/texmf-dist/tex/generic/xypic/xyarrow.tex
  Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded)
@@ -994,7 +1009,7 @@ Xy-pic pdf driver: `rotate' extension support
 elliptical arcs, loaded)
 (/usr/share/texmf/tex/latex/beamer/base/multimedia/multimedia.sty
 Package: multimedia 2012/05/02 ver 0.02
-\mm@movie=\count194
+\mm@movie=\count195
 )
 (/usr/share/texmf/tex/latex/beamer/base/themes/font/beamerfontthemeprofessional
 fonts.sty
@@ -1037,7 +1052,7 @@ Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
-\pgf@plot@mark@count=\count195
+\pgf@plot@mark@count=\count196
 \pgfplotmarksize=\dimen267
 )
 \tikz@lastx=\dimen268
@@ -1048,18 +1063,18 @@ File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
 \tikzsiblingdistance=\dimen273
 \tikz@figbox=\box92
 \tikz@tempbox=\box93
-\tikztreelevel=\count196
-\tikznumberofchildren=\count197
-\tikznumberofcurrentchild=\count198
-\tikz@fig@count=\count199
+\tikztreelevel=\count197
+\tikznumberofchildren=\count198
+\tikznumberofcurrentchild=\count199
+\tikz@fig@count=\count200
 
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
-\pgfmatrixcurrentrow=\count200
-\pgfmatrixcurrentcolumn=\count201
-\pgf@matrix@numberofcolumns=\count202
+\pgfmatrixcurrentrow=\count201
+\pgfmatrixcurrentcolumn=\count202
+\pgf@matrix@numberofcolumns=\count203
 )
-\tikz@expandcount=\count203
+\tikz@expandcount=\count204
 
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
 hs.code.tex
@@ -1145,27 +1160,27 @@ File: pgflibraryshapes.multipart.code.tex 2010/01/07 v2.10 (rcs-revision 1.2)
 \pgfnodepartsevenbox=\box111
 \pgfnodepartsixbox=\box112
 \pgfnodepartfivebox=\box113
-)))
-No file WagnerGroupOct2015.aux.
+))) (./WagnerGroupOct2015.aux)
 \openout1 = `WagnerGroupOct2015.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 66.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 77.
+
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
@@ -1205,16 +1220,16 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count204
+\scratchcounter=\count205
 \scratchdimen=\dimen275
 \scratchbox=\box114
-\nofMPsegments=\count205
-\nofMParguments=\count206
+\nofMPsegments=\count206
+\nofMParguments=\count207
 \everyMPshowfont=\toks65
-\MPscratchCnt=\count207
+\MPscratchCnt=\count208
 \MPscratchDim=\dimen276
-\MPnumerator=\count208
-\makeMPintoPDFobject=\count209
+\MPnumerator=\count209
+\makeMPintoPDFobject=\count210
 \everyMPtoPDFconversion=\toks66
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -1233,7 +1248,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box115
-Package hyperref Info: Link coloring OFF on input line 66.
+Package hyperref Info: Link coloring OFF on input line 77.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1241,11 +1256,13 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count210
+\c@section@level=\count211
 )
-LaTeX Info: Redefining \ref on input line 66.
-LaTeX Info: Redefining \pageref on input line 66.
-LaTeX Info: Redefining \nameref on input line 66.
+LaTeX Info: Redefining \ref on input line 77.
+LaTeX Info: Redefining \pageref on input line 77.
+LaTeX Info: Redefining \nameref on input line 77.
+
+(./WagnerGroupOct2015.out) (./WagnerGroupOct2015.out)
 \@outlinefile=\write6
 \openout6 = `WagnerGroupOct2015.out'.
 
@@ -1283,41 +1300,63 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 66.
-LaTeX Font Info:    Try loading font information for U+msa on input line 66.
+LaTeX Info: Redefining \includegraphics on input line 77.
+LaTeX Font Info:    Try loading font information for U+msa on input line 77.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 66.
+LaTeX Font Info:    Try loading font information for U+msb on input line 77.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Package xypdf Info: Line width: 0.43799pt on input line 66.
+Package xypdf Info: Line width: 0.43799pt on input line 77.
 
-No file WagnerGroupOct2015.nav.
-
-Overfull \hbox (25.39131pt too wide) in paragraph at lines 66--66
+(./WagnerGroupOct2015.nav)
+Overfull \hbox (25.39131pt too wide) in paragraph at lines 77--77
  [][][][]  
  []
 
+
+Overfull \hbox (7.92526pt too wide) detected at line 77
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
+ []
+
+No file WagnerGroupOct2015.bbl.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 70.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 82.
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
+ []
+
 
 Overfull \hbox (25.39131pt too wide) has occurred while \output is active
  [][][][]  
  []
 
-[1
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-\flashmovie@n@config=\count211
-\flashmovie@n@content=\count212
-\flashmovie@n@settings=\count213
-<<Animation.flv>><<player_flv_maxi.swf>>
-Underfull \hbox (badness 10000) detected at line 88
-[]
+]
+<twodimensions.png, id=267, 1152.305pt x 664.4825pt>
+File: twodimensions.png Graphic file (type png)
+ <use twodimensions.png>
+Package pdftex.def Info: twodimensions.png used on input line 112.
+(pdftex.def)             Requested size: 170.71652pt x 98.44122pt.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 112.
+
+Overfull \hbox (116.95006pt too wide) detected at line 112
+[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -1327,15 +1366,20 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [2
 
-] <network_of_cells.png, id=94, 642.4pt x 481.8pt>
-File: network_of_cells.png Graphic file (type png)
-
-<use network_of_cells.png>
-Package pdftex.def Info: network_of_cells.png used on input line 112.
-(pdftex.def)             Requested size: 142.25964pt x 142.26208pt.
+ <./twodimensions.png>]
+File: twodimensions.png Graphic file (type png)
+ <use twodimensions.png>
+Package pdftex.def Info: twodimensions.png used on input line 112.
+(pdftex.def)             Requested size: 170.71652pt x 98.44122pt.
 
 Overfull \hbox (116.95006pt too wide) detected at line 112
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -1345,14 +1389,20 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [3
 
- <./network_of_cells.png (PNG copy)>]
-File: network_of_cells.png Graphic file (type png)
- <use network_of_cells.png>
-Package pdftex.def Info: network_of_cells.png used on input line 112.
-(pdftex.def)             Requested size: 142.25964pt x 142.26208pt.
+]
+File: twodimensions.png Graphic file (type png)
+ <use twodimensions.png>
+Package pdftex.def Info: twodimensions.png used on input line 112.
+(pdftex.def)             Requested size: 170.71652pt x 98.44122pt.
 
 Overfull \hbox (116.95006pt too wide) detected at line 112
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -1363,13 +1413,18 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [4
 
 ]
-File: network_of_cells.png Graphic file (type png)
- <use network_of_cells.png>
-Package pdftex.def Info: network_of_cells.png used on input line 112.
-(pdftex.def)             Requested size: 142.25964pt x 142.26208pt.
+\flashmovie@n@config=\count212
+\flashmovie@n@content=\count213
+\flashmovie@n@settings=\count214
+<<Animation.flv>><<player_flv_maxi.swf>>
+Underfull \hbox (badness 10000) detected at line 123
+[]
+ []
 
-Overfull \hbox (116.95006pt too wide) detected at line 112
-[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -1379,14 +1434,23 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [5
 
-]
+] <network_of_cells.png, id=546, 642.4pt x 481.8pt>
 File: network_of_cells.png Graphic file (type png)
- <use network_of_cells.png>
-Package pdftex.def Info: network_of_cells.png used on input line 112.
+
+<use network_of_cells.png>
+Package pdftex.def Info: network_of_cells.png used on input line 148.
 (pdftex.def)             Requested size: 142.25964pt x 142.26208pt.
 
-Overfull \hbox (116.95006pt too wide) detected at line 112
+Overfull \hbox (116.95006pt too wide) detected at line 148
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 148.
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -1396,17 +1460,20 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [6
 
-] <twodimensions.png, id=205, 1152.305pt x 664.4825pt>
-File: twodimensions.png Graphic file (type png)
+ <./network_of_cells.png (PNG copy)>]
+File: network_of_cells.png Graphic file (type png)
+ <use network_of_cells.png>
+Package pdftex.def Info: network_of_cells.png used on input line 148.
+(pdftex.def)             Requested size: 142.25964pt x 142.26208pt.
 
-<use twodimensions.png>
-Package pdftex.def Info: twodimensions.png used on input line 135.
-(pdftex.def)             Requested size: 170.71652pt x 98.44122pt.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 135.
-
-Overfull \hbox (116.95006pt too wide) detected at line 135
+Overfull \hbox (116.95006pt too wide) detected at line 148
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -1416,14 +1483,20 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [7
 
- <./twodimensions.png>]
-File: twodimensions.png Graphic file (type png)
- <use twodimensions.png>
-Package pdftex.def Info: twodimensions.png used on input line 135.
-(pdftex.def)             Requested size: 170.71652pt x 98.44122pt.
+]
+File: network_of_cells.png Graphic file (type png)
+ <use network_of_cells.png>
+Package pdftex.def Info: network_of_cells.png used on input line 148.
+(pdftex.def)             Requested size: 142.25964pt x 142.26208pt.
 
-Overfull \hbox (116.95006pt too wide) detected at line 135
+Overfull \hbox (116.95006pt too wide) detected at line 148
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -1434,13 +1507,19 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [8
 
 ]
-File: twodimensions.png Graphic file (type png)
- <use twodimensions.png>
-Package pdftex.def Info: twodimensions.png used on input line 135.
-(pdftex.def)             Requested size: 170.71652pt x 98.44122pt.
+File: network_of_cells.png Graphic file (type png)
+ <use network_of_cells.png>
+Package pdftex.def Info: network_of_cells.png used on input line 148.
+(pdftex.def)             Requested size: 142.25964pt x 142.26208pt.
 
-Overfull \hbox (116.95006pt too wide) detected at line 135
+Overfull \hbox (116.95006pt too wide) detected at line 148
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -1450,33 +1529,39 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [9
 
-] <./tissueskinds.png, id=294, 1398.22375pt x 952.55875pt>
+] <./tissueskinds.png, id=813, 1398.22375pt x 952.55875pt>
 File: ./tissueskinds.png Graphic file (type png)
 
 <use ./tissueskinds.png>
-Package pdftex.def Info: ./tissueskinds.png used on input line 159.
-(pdftex.def)             Requested size: 170.70253pt x 170.7119pt.
- <./drosophila.jpg, id=295, 715.67375pt x 1015.795pt>
+Package pdftex.def Info: ./tissueskinds.png used on input line 170.
+(pdftex.def)             Requested size: 170.71652pt x 116.29338pt.
+ <./drosophila.jpg, id=814, 715.67375pt x 1015.795pt>
 File: ./drosophila.jpg Graphic file (type jpg)
 
 <use ./drosophila.jpg>
-Package pdftex.def Info: ./drosophila.jpg used on input line 159.
-(pdftex.def)             Requested size: 56.8947pt x 56.89963pt.
- <./hydra.jpg, id=296, 770.88pt x 721.94719pt>
+Package pdftex.def Info: ./drosophila.jpg used on input line 170.
+(pdftex.def)             Requested size: 56.9055pt x 80.75377pt.
+ <./hydra.jpg, id=815, 770.88pt x 721.94719pt>
 File: ./hydra.jpg Graphic file (type jpg)
 
 <use ./hydra.jpg>
-Package pdftex.def Info: ./hydra.jpg used on input line 159.
-(pdftex.def)             Requested size: 56.89601pt x 56.8977pt.
- <./xenopus.jpg, id=297, 1084.05pt x 722.7pt>
+Package pdftex.def Info: ./hydra.jpg used on input line 170.
+(pdftex.def)             Requested size: 56.9055pt x 53.28444pt.
+ <./xenopus.jpg, id=816, 1084.05pt x 722.7pt>
 File: ./xenopus.jpg Graphic file (type jpg)
 
 <use ./xenopus.jpg>
-Package pdftex.def Info: ./xenopus.jpg used on input line 159.
-(pdftex.def)             Requested size: 56.90189pt x 56.90189pt.
+Package pdftex.def Info: ./xenopus.jpg used on input line 170.
+(pdftex.def)             Requested size: 56.9055pt x 37.93459pt.
 
-Overfull \hbox (126.05482pt too wide) detected at line 159
+Overfull \hbox (126.05482pt too wide) detected at line 170
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -1487,14 +1572,20 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [10
 
  <./tissueskinds.png> <./drosophila.jpg> <./hydra.jpg> <./xenopus.jpg>]
-<./devstages2.png, id=327, 943.525pt x 462.72874pt>
+<./devstages2.png, id=883, 943.525pt x 462.72874pt>
 File: ./devstages2.png Graphic file (type png)
  <use ./devstages2.png>
-Package pdftex.def Info: ./devstages2.png used on input line 172.
+Package pdftex.def Info: ./devstages2.png used on input line 183.
 (pdftex.def)             Requested size: 348.1054pt x 170.71652pt.
 
-Overfull \hbox (174.54341pt too wide) in paragraph at lines 172--172
+Overfull \hbox (174.54341pt too wide) in paragraph at lines 183--183
  [][] 
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -1505,15 +1596,22 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [11
 
  <./devstages2.png>]
-<./junctionalnetwork.png, id=357, 633.36626pt x 899.36pt>
-File: ./junctionalnetwork.png Graphic file (type png)
+<./junctionalnetwork_isolated.png, id=949, 662.475pt x 719.68875pt>
+File: ./junctionalnetwork_isolated.png Graphic file (type png)
 
-<use ./junctionalnetwork.png>
-Package pdftex.def Info: ./junctionalnetwork.png used on input line 195.
-(pdftex.def)             Requested size: 120.22487pt x 170.71652pt.
+<use ./junctionalnetwork_isolated.png>
+Package pdftex.def Info: ./junctionalnetwork_isolated.png used on input line 20
+7.
+(pdftex.def)             Requested size: 157.14738pt x 170.71652pt.
 
-Overfull \hbox (126.05482pt too wide) detected at line 195
+Overfull \hbox (126.05482pt too wide) detected at line 207
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -1523,9 +1621,21 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [12
 
- <./junctionalnetwork.png>]
-Overfull \hbox (18.58998pt too wide) in paragraph at lines 221--221
-[]  
+ <./junctionalnetwork_isolated.png>]
+File: ./junctionalnetwork_isolated.png Graphic file (type png)
+ <use ./junctionalnetwork_isolated.png>
+Package pdftex.def Info: ./junctionalnetwork_isolated.png used on input line 20
+7.
+(pdftex.def)             Requested size: 157.14738pt x 170.71652pt.
+
+Overfull \hbox (126.05482pt too wide) detected at line 207
+[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -1536,8 +1646,20 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [13
 
 ]
-Overfull \hbox (18.58998pt too wide) in paragraph at lines 221--221
-[]  
+File: ./junctionalnetwork_isolated.png Graphic file (type png)
+ <use ./junctionalnetwork_isolated.png>
+Package pdftex.def Info: ./junctionalnetwork_isolated.png used on input line 20
+7.
+(pdftex.def)             Requested size: 157.14738pt x 170.71652pt.
+
+Overfull \hbox (126.05482pt too wide) detected at line 207
+[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -1548,8 +1670,14 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [14
 
 ]
-Overfull \hbox (18.58998pt too wide) in paragraph at lines 221--221
+Overfull \hbox (18.58998pt too wide) in paragraph at lines 234--234
 []  
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -1560,13 +1688,14 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [15
 
 ]
-File: network_of_cells.png Graphic file (type png)
- <use network_of_cells.png>
-Package pdftex.def Info: network_of_cells.png used on input line 240.
-(pdftex.def)             Requested size: 142.25964pt x 142.26208pt.
+Overfull \hbox (18.58998pt too wide) in paragraph at lines 234--234
+[]  
+ []
 
-Overfull \hbox (116.95006pt too wide) detected at line 240
-[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -1577,13 +1706,14 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [16
 
 ]
-File: network_of_cells.png Graphic file (type png)
- <use network_of_cells.png>
-Package pdftex.def Info: network_of_cells.png used on input line 259.
-(pdftex.def)             Requested size: 142.25964pt x 142.26208pt.
+Overfull \hbox (18.58998pt too wide) in paragraph at lines 234--234
+[]  
+ []
 
-Overfull \hbox (116.95006pt too wide) detected at line 259
-[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -1594,17 +1724,27 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [17
 
 ]
-\flashmovie@n@config=\count214
-\flashmovie@n@content=\count215
-\flashmovie@n@settings=\count216
-<<dynamics.flv>>
-Underfull \hbox (badness 10000) detected at line 283
-[]
+Overfull \hbox (18.58998pt too wide) in paragraph at lines 258--258
+[]  
+ []
+
+File: network_of_cells.png Graphic file (type png)
+<use network_of_cells.png>
+Package pdftex.def Info: network_of_cells.png used on input line 258.
+(pdftex.def)             Requested size: 142.25964pt x 142.26208pt.
+
+Overfull \hbox (116.95006pt too wide) detected at line 258
+[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
 
-Overfull \hbox (116.95006pt too wide) detected at line 283
-[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+Overfull \vbox (31.77298pt too high) detected at line 258
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -1615,17 +1755,27 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [18
 
 ]
-\flashmovie@n@config=\count217
-\flashmovie@n@content=\count218
-\flashmovie@n@settings=\count219
+Overfull \hbox (18.58998pt too wide) in paragraph at lines 281--281
+[]  
+ []
 
-Underfull \hbox (badness 10000) detected at line 283
-[]
+File: network_of_cells.png Graphic file (type png)
+<use network_of_cells.png>
+Package pdftex.def Info: network_of_cells.png used on input line 281.
+(pdftex.def)             Requested size: 142.25964pt x 142.26208pt.
+
+Overfull \hbox (116.95006pt too wide) detected at line 281
+[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
 
-Overfull \hbox (116.95006pt too wide) detected at line 283
-[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+Overfull \vbox (34.13301pt too high) detected at line 281
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -1636,17 +1786,23 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [19
 
 ]
-\flashmovie@n@config=\count220
-\flashmovie@n@content=\count221
-\flashmovie@n@settings=\count222
-<<regular_relaxation.flv>>
-Underfull \hbox (badness 10000) detected at line 305
+\flashmovie@n@config=\count215
+\flashmovie@n@content=\count216
+\flashmovie@n@settings=\count217
+<<dynamics.flv>>
+Underfull \hbox (badness 10000) detected at line 306
 []
  []
 
 
-Overfull \hbox (116.95006pt too wide) detected at line 305
+Overfull \hbox (116.95006pt too wide) detected at line 306
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -1657,32 +1813,23 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [20
 
 ]
-\flashmovie@n@config=\count223
-\flashmovie@n@content=\count224
-\flashmovie@n@settings=\count225
+\flashmovie@n@config=\count218
+\flashmovie@n@content=\count219
+\flashmovie@n@settings=\count220
 
-Underfull \hbox (badness 10000) detected at line 326
+Underfull \hbox (badness 10000) detected at line 306
 []
  []
 
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 326.
 
-LaTeX Warning: Citation `Farhadifar' on page 21 undefined on input line 326.
-
-
-Overfull \hbox (36.39177pt too wide) in paragraph at lines 326--326
-\OT1/phv/m/n/10.95 ($\OML/cmm/m/it/10.95 r\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.
-95 t [] \OT1/cmr/m/n/10.95 +  []^^A\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 ) = 
- []2\OML/cmm/m/it/10.95 r\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/
-10.95 ) [] \OMS/cmsy/m/n/10.95 ^^@  []\OML/cmm/m/it/10.95 r\OT1/cmr/m/n/10.95 (
-\OML/cmm/m/it/10.95 t [] \OMS/cmsy/m/n/10.95 ^^@  []\OT1/cmr/m/n/10.95 ^^A\OML/
-cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 ) + 
+Overfull \hbox (116.95006pt too wide) detected at line 306
+[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
 
-Overfull \hbox (116.95006pt too wide) detected at line 326
-[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -1693,17 +1840,27 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [21
 
 ]
-\flashmovie@n@config=\count226
-\flashmovie@n@content=\count227
-\flashmovie@n@settings=\count228
-
-Underfull \hbox (badness 10000) detected at line 347
+\flashmovie@n@config=\count221
+\flashmovie@n@content=\count222
+\flashmovie@n@settings=\count223
+<<regular_relaxation.flv>>
+Underfull \hbox (badness 10000) detected at line 330
 []
  []
 
 
-Overfull \hbox (116.95006pt too wide) detected at line 347
+Overfull \hbox (116.95006pt too wide) detected at line 330
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \vbox (19.32626pt too high) detected at line 330
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -1714,201 +1871,39 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [22
 
 ]
-\flashmovie@n@config=\count229
-\flashmovie@n@content=\count230
-\flashmovie@n@settings=\count231
+\flashmovie@n@config=\count224
+\flashmovie@n@content=\count225
+\flashmovie@n@settings=\count226
 
-Underfull \hbox (badness 10000) detected at line 367
+Underfull \hbox (badness 10000) detected at line 353
 []
  []
 
-! Undefined control sequence.
-\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
-                                    
-l.367 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 353.
 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.367 }
-       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
-                                    
-l.367 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.367 }
-       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
-                                    
-l.367 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.367 }
-       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
-                                    
-l.367 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.367 }
-       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
-                                    
-l.367 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.367 }
-       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
-                                    
-l.367 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.367 }
-       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
-                                    
-l.367 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.367 }
-       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
-                                    
-l.367 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.367 }
-       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
+Overfull \hbox (32.74547pt too wide) in paragraph at lines 353--353
+\OML/cmm/m/it/10.95 r\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t [] \OT1/cmr/m/n/
+10.95 +  []^^A\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 ) =  []2\OML/cmm/m/it/10.
+95 r\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 ) [] \OMS/cmsy/
+m/n/10.95 ^^@  []\OML/cmm/m/it/10.95 r\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t
+ [] \OMS/cmsy/m/n/10.95 ^^@  []\OT1/cmr/m/n/10.95 ^^A\OML/cmm/m/it/10.95 t\OT1/
+cmr/m/n/10.95 ) + 
+ []
 
 
-Overfull \hbox (116.95006pt too wide) detected at line 367
+Overfull \hbox (116.95006pt too wide) detected at line 353
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \vbox (19.32626pt too high) detected at line 353
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -1919,12 +1914,29 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [23
 
 ]
-LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <10.95> not available
-(Font)              Font shape `OT1/phv/b/it' tried instead on input line 382.
-LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10.95> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 382.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 382.
+\flashmovie@n@config=\count227
+\flashmovie@n@content=\count228
+\flashmovie@n@settings=\count229
+
+Underfull \hbox (badness 10000) detected at line 376
+[]
+ []
+
+
+Overfull \hbox (116.95006pt too wide) detected at line 376
+[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \vbox (19.32626pt too high) detected at line 376
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
+ []
+
 
 Overfull \hbox (25.39131pt too wide) has occurred while \output is active
  [][][][]  
@@ -1933,6 +1945,210 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [24
 
 ]
+\flashmovie@n@config=\count230
+\flashmovie@n@content=\count231
+\flashmovie@n@settings=\count232
+
+Underfull \hbox (badness 10000) detected at line 397
+[]
+ []
+
+! Undefined control sequence.
+\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
+                                    
+l.397 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.397 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
+                                    
+l.397 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.397 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
+                                    
+l.397 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.397 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
+                                    
+l.397 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.397 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
+                                    
+l.397 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.397 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
+                                    
+l.397 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.397 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
+                                    
+l.397 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.397 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
+                                    
+l.397 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.397 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (116.95006pt too wide) detected at line 397
+[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
+ []
+
+
 Overfull \hbox (25.39131pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -1940,214 +2156,16 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [25
 
 ]
-! Undefined control sequence.
-\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
-                                    
-l.410 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 412.
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 412.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <14.4> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 412.
 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.410 }
-       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
-                                    
-l.410 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.410 }
-       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
-                                    
-l.410 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.410 }
-       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
-                                    
-l.410 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.410 }
-       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
-                                    
-l.410 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.410 }
-       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
-                                    
-l.410 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.410 }
-       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
-                                    
-l.410 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.410 }
-       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
-                                    
-l.410 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.410 }
-       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\flashmovie@n@config=\count232
-\flashmovie@n@content=\count233
-Normal \count register pool exhausted, switching to extended pool.
-\flashmovie@n@settings=\count277
-
-Underfull \hbox (badness 10000) detected at line 410
-[]
- []
-
-\flashmovie@n@config=\count278
-\flashmovie@n@content=\count279
-\flashmovie@n@settings=\count280
-<<soft_relaxation.flv>>
-Underfull \hbox (badness 10000) detected at line 410
-[]
- []
-
-
-Overfull \hbox (151.66193pt too wide) detected at line 410
-[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
- []
-
-
-Overfull \vbox (32.31583pt too high) detected at line 410
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -2157,12 +2175,12 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [26
 
-] <levelplot_reg_relaxation.png, id=814, 433.62pt x 289.08pt>
-File: levelplot_reg_relaxation.png Graphic file (type png)
+]
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
+ []
 
-<use levelplot_reg_relaxation.png>
-Package pdftex.def Info: levelplot_reg_relaxation.png used on input line 420.
-(pdftex.def)             Requested size: 284.52756pt x 189.69504pt.
 
 Overfull \hbox (25.39131pt too wide) has occurred while \output is active
  [][][][]  
@@ -2170,18 +2188,221 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [27
 
- <./levelplot_reg_relaxation.png (PNG copy)>]
-\flashmovie@n@config=\count281
-\flashmovie@n@content=\count282
-\flashmovie@n@settings=\count283
-<<celldivision.flv>>
-Underfull \hbox (badness 10000) detected at line 458
+]
+! Undefined control sequence.
+\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
+                                    
+l.436 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.436 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
+                                    
+l.436 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.436 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
+                                    
+l.436 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.436 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
+                                    
+l.436 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.436 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
+                                    
+l.436 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.436 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
+                                    
+l.436 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.436 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
+                                    
+l.436 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.436 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
+                                    
+l.436 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.436 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+\flashmovie@n@config=\count233
+Normal \count register pool exhausted, switching to extended pool.
+\flashmovie@n@content=\count277
+\flashmovie@n@settings=\count278
+
+Underfull \hbox (badness 10000) detected at line 436
+[]
+ []
+
+\flashmovie@n@config=\count279
+\flashmovie@n@content=\count280
+\flashmovie@n@settings=\count281
+<<soft_relaxation.flv>>
+Underfull \hbox (badness 10000) detected at line 436
 []
  []
 
 
-Overfull \hbox (116.95006pt too wide) detected at line 458
+Overfull \hbox (205.72198pt too wide) detected at line 436
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \vbox (12.23578pt too high) detected at line 436
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -2191,14 +2412,16 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [28
 
-] <cellgrowth.png, id=874, 936.49875pt x 421.575pt>
-File: cellgrowth.png Graphic file (type png)
- <use cellgrowth.png>
-Package pdftex.def Info: cellgrowth.png used on input line 481.
-(pdftex.def)             Requested size: 170.71652pt x 76.84512pt.
+] <levelplot_reg_relaxation.png, id=2112, 433.62pt x 289.08pt>
+File: levelplot_reg_relaxation.png Graphic file (type png)
 
-Overfull \hbox (116.95006pt too wide) detected at line 481
-[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+<use levelplot_reg_relaxation.png>
+Package pdftex.def Info: levelplot_reg_relaxation.png used on input line 446.
+(pdftex.def)             Requested size: 284.52756pt x 189.69504pt.
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -2208,14 +2431,24 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [29
 
- <./cellgrowth.png>]
-File: cellgrowth.png Graphic file (type png)
- <use cellgrowth.png>
-Package pdftex.def Info: cellgrowth.png used on input line 481.
-(pdftex.def)             Requested size: 170.71652pt x 76.84512pt.
+ <./levelplot_reg_relaxation.png (PNG copy)>]
+\flashmovie@n@config=\count282
+\flashmovie@n@content=\count283
+\flashmovie@n@settings=\count284
+<<celldivision.flv>>
+Underfull \hbox (badness 10000) detected at line 484
+[]
+ []
 
-Overfull \hbox (116.95006pt too wide) detected at line 481
+
+Overfull \hbox (116.95006pt too wide) detected at line 484
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -2225,14 +2458,20 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [30
 
-]
+] <cellgrowth.png, id=2248, 936.49875pt x 421.575pt>
 File: cellgrowth.png Graphic file (type png)
  <use cellgrowth.png>
-Package pdftex.def Info: cellgrowth.png used on input line 501.
+Package pdftex.def Info: cellgrowth.png used on input line 508.
 (pdftex.def)             Requested size: 170.71652pt x 76.84512pt.
 
-Overfull \hbox (116.95006pt too wide) detected at line 501
+Overfull \hbox (116.95006pt too wide) detected at line 508
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -2242,15 +2481,20 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [31
 
-] <celldivision.png, id=957, 934.49126pt x 426.59375pt>
-File: celldivision.png Graphic file (type png)
+ <./cellgrowth.png>]
+File: cellgrowth.png Graphic file (type png)
+ <use cellgrowth.png>
+Package pdftex.def Info: cellgrowth.png used on input line 508.
+(pdftex.def)             Requested size: 170.71652pt x 76.84512pt.
 
-<use celldivision.png>
-Package pdftex.def Info: celldivision.png used on input line 522.
-(pdftex.def)             Requested size: 170.71652pt x 77.92918pt.
-
-Overfull \hbox (116.95006pt too wide) detected at line 522
+Overfull \hbox (116.95006pt too wide) detected at line 508
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -2260,14 +2504,20 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [32
 
- <./celldivision.png>]
-File: celldivision.png Graphic file (type png)
- <use celldivision.png>
-Package pdftex.def Info: celldivision.png used on input line 542.
-(pdftex.def)             Requested size: 170.71652pt x 77.92918pt.
+]
+File: cellgrowth.png Graphic file (type png)
+ <use cellgrowth.png>
+Package pdftex.def Info: cellgrowth.png used on input line 529.
+(pdftex.def)             Requested size: 170.71652pt x 76.84512pt.
 
-Overfull \hbox (116.95006pt too wide) detected at line 542
+Overfull \hbox (116.95006pt too wide) detected at line 529
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -2277,14 +2527,21 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [33
 
-]
+] <celldivision.png, id=2446, 934.49126pt x 426.59375pt>
 File: celldivision.png Graphic file (type png)
- <use celldivision.png>
-Package pdftex.def Info: celldivision.png used on input line 563.
+
+<use celldivision.png>
+Package pdftex.def Info: celldivision.png used on input line 551.
 (pdftex.def)             Requested size: 170.71652pt x 77.92918pt.
 
-Overfull \hbox (116.95006pt too wide) detected at line 563
+Overfull \hbox (116.95006pt too wide) detected at line 551
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -2294,14 +2551,20 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [34
 
-]
+ <./celldivision.png>]
 File: celldivision.png Graphic file (type png)
  <use celldivision.png>
-Package pdftex.def Info: celldivision.png used on input line 584.
+Package pdftex.def Info: celldivision.png used on input line 572.
 (pdftex.def)             Requested size: 170.71652pt x 77.92918pt.
 
-Overfull \hbox (116.95006pt too wide) detected at line 584
+Overfull \hbox (116.95006pt too wide) detected at line 572
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -2314,11 +2577,17 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 ]
 File: celldivision.png Graphic file (type png)
  <use celldivision.png>
-Package pdftex.def Info: celldivision.png used on input line 605.
+Package pdftex.def Info: celldivision.png used on input line 594.
 (pdftex.def)             Requested size: 170.71652pt x 77.92918pt.
 
-Overfull \hbox (116.95006pt too wide) detected at line 605
+Overfull \hbox (116.95006pt too wide) detected at line 594
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -2328,14 +2597,20 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [36
 
-] <timeseries.png, id=1091, 954.56625pt x 616.3025pt>
-File: timeseries.png Graphic file (type png)
- <use timeseries.png>
-Package pdftex.def Info: timeseries.png used on input line 627.
-(pdftex.def)             Requested size: 170.71652pt x 110.21495pt.
+]
+File: celldivision.png Graphic file (type png)
+ <use celldivision.png>
+Package pdftex.def Info: celldivision.png used on input line 616.
+(pdftex.def)             Requested size: 170.71652pt x 77.92918pt.
 
-Overfull \hbox (116.95006pt too wide) detected at line 627
+Overfull \hbox (116.95006pt too wide) detected at line 616
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -2345,214 +2620,20 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [37
 
- <./timeseries.png>]
-! Undefined control sequence.
-\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
-                                    
-l.653 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+]
+File: celldivision.png Graphic file (type png)
+ <use celldivision.png>
+Package pdftex.def Info: celldivision.png used on input line 638.
+(pdftex.def)             Requested size: 170.71652pt x 77.92918pt.
 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.653 }
-       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
-                                    
-l.653 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.653 }
-       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
-                                    
-l.653 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.653 }
-       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
-                                    
-l.653 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.653 }
-       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
-                                    
-l.653 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.653 }
-       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
-                                    
-l.653 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.653 }
-       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
-                                    
-l.653 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.653 }
-       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
-                                    
-l.653 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.653 }
-       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-\flashmovie@n@config=\count284
-\flashmovie@n@content=\count285
-\flashmovie@n@settings=\count286
-
-Underfull \hbox (badness 10000) detected at line 653
-[]
- []
-
-\flashmovie@n@config=\count287
-\flashmovie@n@content=\count288
-\flashmovie@n@settings=\count289
-
-Underfull \hbox (badness 10000) detected at line 653
-[]
- []
-
-
-Overfull \hbox (151.66193pt too wide) detected at line 653
+Overfull \hbox (116.95006pt too wide) detected at line 638
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
 
-Overfull \vbox (4.24948pt too high) detected at line 653
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
  []
 
 
@@ -2562,12 +2643,22 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [38
 
-] <levelplot_mean_cellshape.png, id=1158, 433.62pt x 289.08pt>
-File: levelplot_mean_cellshape.png Graphic file (type png)
+] <timeseries.png, id=2772, 954.56625pt x 616.3025pt>
+File: timeseries.png Graphic file (type png)
+ <use timeseries.png>
+Package pdftex.def Info: timeseries.png used on input line 660.
+(pdftex.def)             Requested size: 170.71652pt x 110.21495pt.
 
-<use levelplot_mean_cellshape.png>
-Package pdftex.def Info: levelplot_mean_cellshape.png used on input line 662.
-(pdftex.def)             Requested size: 227.62204pt x 151.74721pt.
+Overfull \hbox (116.95006pt too wide) detected at line 660
+[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
+ []
+
 
 Overfull \hbox (25.39131pt too wide) has occurred while \output is active
  [][][][]  
@@ -2575,21 +2666,251 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [39
 
- <./levelplot_mean_cellshape.png (PNG copy)>]
+ <./timeseries.png>]
+! Undefined control sequence.
+\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
+                                    
+l.684 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.684 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
+                                    
+l.684 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.684 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
+                                    
+l.684 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.684 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
+                                    
+l.684 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.684 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
+                                    
+l.684 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.684 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
+                                    
+l.684 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.684 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
+                                    
+l.684 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.684 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+\Lstackgap ->\dimexpr .5pt+1.5\LMpt 
+                                    
+l.684 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.684 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+\flashmovie@n@config=\count285
+\flashmovie@n@content=\count286
+\flashmovie@n@settings=\count287
+<<shapedistribution1.flv>>
+Underfull \hbox (badness 10000) detected at line 684
+[]
+ []
+
+\flashmovie@n@config=\count288
+\flashmovie@n@content=\count289
+\flashmovie@n@settings=\count290
+<<shapedistribution2.flv>>
+Underfull \hbox (badness 10000) detected at line 684
+[]
+ []
+
+
+Overfull \hbox (205.72198pt too wide) detected at line 684
+[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
+ []
+
+
 Overfull \hbox (25.39131pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [40
 
-]
+] <levelplot_mean_cellshape.png, id=2916, 433.62pt x 289.08pt>
+File: levelplot_mean_cellshape.png Graphic file (type png)
+
+<use levelplot_mean_cellshape.png>
+Package pdftex.def Info: levelplot_mean_cellshape.png used on input line 694.
+(pdftex.def)             Requested size: 284.52756pt x 189.69504pt.
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
+ []
+
+
 Overfull \hbox (25.39131pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [41
 
-]
+ <./levelplot_mean_cellshape.png (PNG copy)>]
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
+ []
+
+
 Overfull \hbox (25.39131pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2597,6 +2918,12 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [42
 
 ]
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
+ []
+
+
 Overfull \hbox (25.39131pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2604,6 +2931,12 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [43
 
 ]
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
+ []
+
+
 Overfull \hbox (25.39131pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2611,11 +2944,163 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [44
 
 ]
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
+ []
+
+
 Overfull \hbox (25.39131pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [45
+
+]
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
+ []
+
+
+Overfull \hbox (25.39131pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[46
+
+]
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 749.
+
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
+ []
+
+
+Overfull \hbox (25.39131pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[47
+
+]
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
+ []
+
+
+Overfull \hbox (25.39131pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[48
+
+]
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
+ []
+
+
+Overfull \hbox (25.39131pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[49
+
+]
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
+ []
+
+
+Overfull \hbox (25.39131pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[50
+
+]
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
+ []
+
+
+Overfull \hbox (25.39131pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[51
+
+]
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
+ []
+
+
+Overfull \hbox (25.39131pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[52
+
+]
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
+ []
+
+
+Overfull \hbox (25.39131pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[53
+
+]
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
+ []
+
+
+Overfull \hbox (25.39131pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[54
+
+]
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
+ []
+
+
+Overfull \hbox (25.39131pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[55
+
+]
+Overfull \hbox (7.92526pt too wide) has occurred while \output is active
+  [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
+][] [][] []  
+ []
+
+
+Overfull \hbox (25.39131pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[56
 
 ]
 \tf@nav=\write7
@@ -2627,33 +3112,23 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 \tf@snm=\write9
 \openout9 = `WagnerGroupOct2015.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 717.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 717.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 784.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 784.
  (./WagnerGroupOct2015.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 717.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 717.
-
-
-Package rerunfilecheck Warning: File `WagnerGroupOct2015.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `WagnerGroupOct2015.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  65119CCE16132A27C464A37FD797AC68;2872.
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 717.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 784.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 784.
+Package rerunfilecheck Info: File `WagnerGroupOct2015.out' has not changed.
+(rerunfilecheck)             Checksum: 81DCE67FF6891A1325DA3930C85B6788;3154.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 784.
  ) 
 Here is how much of TeX's memory you used:
- 29178 strings out of 495028
- 516477 string characters out of 6181497
- 687545 words of memory out of 5000000
- 31621 multiletter control sequences out of 15000+600000
- 28183 words of font info for 71 fonts, out of 8000000 for 9000
+ 29823 strings out of 495028
+ 524944 string characters out of 6181497
+ 726444 words of memory out of 5000000
+ 32210 multiletter control sequences out of 15000+600000
+ 38566 words of font info for 89 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 49i,17n,57p,3243b,1240s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,20n,57p,3243b,1240s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-
@@ -2663,14 +3138,15 @@ ype1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on WagnerGroupOct2015.pdf (45 pages, 13027930 bytes).
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/urw/helvetic/uhvro8a.pfb>
+Output written on WagnerGroupOct2015.pdf (56 pages, 13369827 bytes).
 PDF statistics:
- 1417 PDF objects out of 1440 (max. 8388607)
- 1297 compressed objects within 13 object streams
- 113 named destinations out of 1000 (max. 500000)
- 382 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4045 PDF objects out of 4296 (max. 8388607)
+ 3846 compressed objects within 39 object streams
+ 138 named destinations out of 1000 (max. 500000)
+ 598 words of extra memory for PDF output out of 10000 (max. 10000000)
 

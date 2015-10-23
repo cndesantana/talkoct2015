@@ -1,23 +1,26 @@
 \beamer@endinputifotherversion {3.24pt}
 \beamer@sectionintoc {1}{Motivation}{2}{0}{1}
-\beamer@subsectionintoc {1}{1}{Real data}{2}{0}{1}
-\beamer@subsectionintoc {1}{2}{General Assumptions}{3}{0}{1}
-\beamer@subsectionintoc {1}{3}{Junctional Network}{7}{0}{1}
+\beamer@subsectionintoc {1}{1}{Junctional Network}{2}{0}{1}
+\beamer@subsectionintoc {1}{2}{Real data}{5}{0}{1}
+\beamer@subsectionintoc {1}{3}{General Assumptions}{6}{0}{1}
 \beamer@sectionintoc {2}{Different cell shapes}{10}{0}{2}
 \beamer@subsectionintoc {2}{1}{Different Kind of tissues}{10}{0}{2}
 \beamer@subsectionintoc {2}{2}{Different Developmental stages}{11}{0}{2}
 \beamer@sectionintoc {3}{General Assumptions}{12}{0}{3}
 \beamer@subsectionintoc {3}{1}{Cell Mechanics}{12}{0}{3}
-\beamer@subsectionintoc {3}{2}{Energy Function}{13}{0}{3}
-\beamer@sectionintoc {4}{Model Dynamics}{18}{0}{4}
-\beamer@subsectionintoc {4}{1}{Sequence of Events}{18}{0}{4}
-\beamer@subsectionintoc {4}{2}{Relaxation}{20}{0}{4}
-\beamer@subsectionintoc {4}{3}{Cell Proliferation}{28}{0}{4}
-\beamer@subsectionintoc {4}{4}{Cell Growth}{29}{0}{4}
-\beamer@subsectionintoc {4}{5}{Cell Division}{32}{0}{4}
-\beamer@subsectionintoc {4}{6}{Steady State}{37}{0}{4}
-\beamer@sectionintoc {5}{Results}{38}{0}{5}
-\beamer@subsectionintoc {5}{1}{Results}{38}{0}{5}
-\beamer@sectionintoc {6}{Next Steps}{40}{0}{6}
-\beamer@subsectionintoc {6}{1}{Next Steps}{40}{0}{6}
-\beamer@sectionintoc {7}{Acknowledgments}{45}{0}{7}
+\beamer@subsectionintoc {3}{2}{Energy Function}{15}{0}{3}
+\beamer@sectionintoc {4}{Model Dynamics}{20}{0}{4}
+\beamer@subsectionintoc {4}{1}{Sequence of Events}{20}{0}{4}
+\beamer@subsectionintoc {4}{2}{Relaxation}{22}{0}{4}
+\beamer@subsectionintoc {4}{3}{Cell Proliferation}{30}{0}{4}
+\beamer@subsectionintoc {4}{4}{Cell Growth}{31}{0}{4}
+\beamer@subsectionintoc {4}{5}{Cell Division}{34}{0}{4}
+\beamer@subsectionintoc {4}{6}{Steady State}{39}{0}{4}
+\beamer@sectionintoc {5}{Results}{40}{0}{5}
+\beamer@subsectionintoc {5}{1}{Results}{40}{0}{5}
+\beamer@sectionintoc {6}{Infos}{42}{0}{6}
+\beamer@subsectionintoc {6}{1}{Numbers}{42}{0}{6}
+\beamer@subsectionintoc {6}{2}{Technologies}{47}{0}{6}
+\beamer@sectionintoc {7}{Next Steps}{51}{0}{7}
+\beamer@subsectionintoc {7}{1}{Next Steps}{51}{0}{7}
+\beamer@sectionintoc {8}{Acknowledgments}{56}{0}{8}
