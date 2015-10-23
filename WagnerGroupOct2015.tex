@@ -94,16 +94,16 @@
 \setbeamercolor{uppercol}{fg=black,bg=white}
 \setbeamercolor{lowercol}{fg=black,bg=white}
 \begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
-\begin{minipage}[t]{6.1cm}
+\begin{minipage}[t]{10cm}
 \begin{columns}
     \begin{column}{\textwidth}
         \hspace{4cm}\includegraphics[width=6cm]{twodimensions.png}
     \end{column}
     \begin{column}{0.8\textwidth}
         \begin{enumerate}
-        \item < 1-| alert@1 > Epithelia cells are connected to each other via adhesive molecules.
-        \item < 2-| alert@2 > Epithelia cells establish a \textbf{junctional adherent network} near their apical region.
-        \item < 3-| alert@3 > Epithelia tissues are simpler to be studied (2-dimensional).
+        \item < 1-| alert@1 > Epithelia cells are connected to each other via adhesive molecules (\emph{Cadherin}, and components of the \emph{actin cytoskeleton}) near their apical region. 
+        \item < 2-| alert@2 > These apical junctions can be considered as a two-dimensional network (\textbf{junctional adherent network}) that defines the cell packing geometry.
+        \item < 3-| alert@3 > This 2-dimensional topology makes the study of Epithelia tissues simpler than the study of tissues in 3-dimensions.
         \end{enumerate}
     \end{column}
 \end{columns}
@@ -153,17 +153,17 @@
 \frame{\frametitle{Cell shapes and Different kind of tissues}
 \setbeamercolor{uppercol}{fg=black,bg=pink}
 \setbeamercolor{lowercol}{fg=black,bg=pink}
+\includegraphics[width=12cm]{./different_tissues.png}\\
 \begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
-\begin{minipage}[t]{6.5cm}
+\begin{minipage}[t]{8cm}
 \begin{columns}
     \begin{column}{\textwidth}
-        \hspace{8cm} \includegraphics[width=6cm]{./tissueskinds.png}
-    \end{column}
-    \begin{column}{0.8\textwidth}
-        \hspace{7cm} \includegraphics[width=2cm]{./drosophila.jpg}
-        \hspace{7cm} \includegraphics[width=2cm]{./hydra.jpg}
-        \hspace{7cm} \includegraphics[width=2cm]{./xenopus.jpg}
-    \end{column}
+    \begin{enumerate}
+       \item A - Drosophila retina ommatidium (eys of a fruit fly)
+       \item B - Basilar papilla of chicken embryo
+       \item \textbf{C - Drosophila wing disc}
+    \end{enumerate}
+    \end{column}{\textwidth}
 \end{columns}
 \end{minipage}
 \end{beamerboxesrounded}
@@ -216,11 +216,11 @@
 \end{align*}
 
 \begin{itemize}[<+-| alert@+>]
-    \item Elasticity and Cell Area 
+    \item Elasticity and Cell Area ($K_{\alpha}$, and $A_{\alpha}$) 
         \tikz\node[coordinate] (n1) {};
-    \item Line tension and Edge length 
+    \item Line tension and Edge length ($\Lambda_{ij}$, and $L_{ij}$)
         \tikz\node[coordinate] (n2) {};
-    \item Contractility and Cell Perimeter 
+    \item Contractility and Cell Perimeter ($\Gamma_{\alpha}$, and $L_{\alpha}$) 
         \tikz\node[coordinate] (n3) {};
 \end{itemize}
 % Now it's time to draw some edges between the global nodes. Note that we

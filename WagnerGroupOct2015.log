@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.14)  23 OCT 2015 11:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.14)  23 OCT 2015 12:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1346,10 +1346,12 @@ File: twodimensions.png Graphic file (type png)
  <use twodimensions.png>
 Package pdftex.def Info: twodimensions.png used on input line 112.
 (pdftex.def)             Requested size: 170.71652pt x 98.44122pt.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 112.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 112.
 
-Overfull \hbox (116.95006pt too wide) detected at line 112
+Overfull \hbox (205.72285pt too wide) detected at line 112
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
@@ -1372,7 +1374,7 @@ File: twodimensions.png Graphic file (type png)
 Package pdftex.def Info: twodimensions.png used on input line 112.
 (pdftex.def)             Requested size: 170.71652pt x 98.44122pt.
 
-Overfull \hbox (116.95006pt too wide) detected at line 112
+Overfull \hbox (205.72285pt too wide) detected at line 112
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
@@ -1395,7 +1397,7 @@ File: twodimensions.png Graphic file (type png)
 Package pdftex.def Info: twodimensions.png used on input line 112.
 (pdftex.def)             Requested size: 170.71652pt x 98.44122pt.
 
-Overfull \hbox (116.95006pt too wide) detected at line 112
+Overfull \hbox (205.72285pt too wide) detected at line 112
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
@@ -1529,34 +1531,33 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [9
 
-] <./tissueskinds.png, id=865, 1398.22375pt x 952.55875pt>
-File: ./tissueskinds.png Graphic file (type png)
+] <./different_tissues.png, id=865, 1578.89874pt x 385.44pt>
+File: ./different_tissues.png Graphic file (type png)
 
-<use ./tissueskinds.png>
-Package pdftex.def Info: ./tissueskinds.png used on input line 170.
-(pdftex.def)             Requested size: 170.71652pt x 116.29338pt.
- <./drosophila.jpg, id=866, 715.67375pt x 1015.795pt>
-File: ./drosophila.jpg Graphic file (type jpg)
+<use ./different_tissues.png>
+Package pdftex.def Info: ./different_tissues.png used on input line 170.
+(pdftex.def)             Requested size: 341.43306pt x 83.35025pt.
 
-<use ./drosophila.jpg>
-Package pdftex.def Info: ./drosophila.jpg used on input line 170.
-(pdftex.def)             Requested size: 56.9055pt x 80.75377pt.
- <./hydra.jpg, id=867, 770.88pt x 721.94719pt>
-File: ./hydra.jpg Graphic file (type jpg)
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.170 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
-<use ./hydra.jpg>
-Package pdftex.def Info: ./hydra.jpg used on input line 170.
-(pdftex.def)             Requested size: 56.9055pt x 53.28444pt.
- <./xenopus.jpg, id=868, 1084.05pt x 722.7pt>
-File: ./xenopus.jpg Graphic file (type jpg)
-
-<use ./xenopus.jpg>
-Package pdftex.def Info: ./xenopus.jpg used on input line 170.
-(pdftex.def)             Requested size: 56.9055pt x 37.93459pt.
-
-Overfull \hbox (126.05482pt too wide) detected at line 170
-[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
- []
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.170 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
 
 
 Overfull \hbox (4.58401pt too wide) has occurred while \output is active
@@ -1571,8 +1572,8 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [10
 
- <./tissueskinds.png> <./drosophila.jpg> <./hydra.jpg> <./xenopus.jpg>]
-<./devstages2.png, id=939, 943.525pt x 462.72874pt>
+ <./different_tissues.png>]
+<./devstages2.png, id=936, 943.525pt x 462.72874pt>
 File: ./devstages2.png Graphic file (type png)
  <use ./devstages2.png>
 Package pdftex.def Info: ./devstages2.png used on input line 183.
@@ -1600,7 +1601,7 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [11
 
  <./devstages2.png>]
-<./junctionalnetwork_isolated.png, id=1010, 662.475pt x 719.68875pt>
+<./junctionalnetwork_isolated.png, id=1007, 662.475pt x 719.68875pt>
 File: ./junctionalnetwork_isolated.png Graphic file (type png)
 
 <use ./junctionalnetwork_isolated.png>
@@ -1803,9 +1804,6 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [20
 
 ]
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 311.
-
 Overfull \hbox (4.58401pt too wide) has occurred while \output is active
   [] [][][][][][] [][][][][] [] [][][] [][][][][][][][] [][][][][][][][][][][][
 ][] [][][] [][][] []  
@@ -2505,7 +2503,7 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [36
 
-] <levelplot_reg_relaxation.png, id=2797, 433.62pt x 289.08pt>
+] <levelplot_reg_relaxation.png, id=2794, 433.62pt x 289.08pt>
 File: levelplot_reg_relaxation.png Graphic file (type png)
 
 <use levelplot_reg_relaxation.png>
@@ -2551,7 +2549,7 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [38
 
-] <cellgrowth.png, id=2941, 936.49875pt x 421.575pt>
+] <cellgrowth.png, id=2938, 936.49875pt x 421.575pt>
 File: cellgrowth.png Graphic file (type png)
  <use cellgrowth.png>
 Package pdftex.def Info: cellgrowth.png used on input line 550.
@@ -2620,7 +2618,7 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [41
 
-] <celldivision.png, id=3150, 934.49126pt x 426.59375pt>
+] <celldivision.png, id=3147, 934.49126pt x 426.59375pt>
 File: celldivision.png Graphic file (type png)
 
 <use celldivision.png>
@@ -2736,7 +2734,7 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [46
 
-] <timeseries.png, id=3496, 954.56625pt x 616.3025pt>
+] <timeseries.png, id=3493, 954.56625pt x 616.3025pt>
 File: timeseries.png Graphic file (type png)
  <use timeseries.png>
 Package pdftex.def Info: timeseries.png used on input line 702.
@@ -2978,7 +2976,7 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [48
 
-] <levelplot_mean_cellshape.png, id=3648, 433.62pt x 289.08pt>
+] <levelplot_mean_cellshape.png, id=3645, 433.62pt x 289.08pt>
 File: levelplot_mean_cellshape.png Graphic file (type png)
 
 <use levelplot_mean_cellshape.png>
@@ -2998,7 +2996,7 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [49
 
  <./levelplot_mean_cellshape.png (PNG copy)>]
-<levelplot_stdev_cellshape.png, id=3718, 433.62pt x 289.08pt>
+<levelplot_stdev_cellshape.png, id=3715, 433.62pt x 289.08pt>
 File: levelplot_stdev_cellshape.png Graphic file (type png)
 
 <use levelplot_stdev_cellshape.png>
@@ -3313,10 +3311,10 @@ Package rerunfilecheck Info: File `WagnerGroupOct2015.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 851.
  ) 
 Here is how much of TeX's memory you used:
- 29879 strings out of 495028
- 525572 string characters out of 6181497
- 731345 words of memory out of 5000000
- 32232 multiletter control sequences out of 15000+600000
+ 29863 strings out of 495028
+ 525342 string characters out of 6181497
+ 731184 words of memory out of 5000000
+ 32220 multiletter control sequences out of 15000+600000
  40199 words of font info for 91 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  49i,20n,57p,3243b,1240s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3334,10 +3332,10 @@ cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 exlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/helvetic/uhvro8a.pfb>
-Output written on WagnerGroupOct2015.pdf (71 pages, 11625793 bytes).
+Output written on WagnerGroupOct2015.pdf (71 pages, 11777964 bytes).
 PDF statistics:
- 5337 PDF objects out of 6186 (max. 8388607)
+ 5334 PDF objects out of 6186 (max. 8388607)
  5106 compressed objects within 52 object streams
  170 named destinations out of 1000 (max. 500000)
- 611 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 596 words of extra memory for PDF output out of 10000 (max. 10000000)
 
