@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.14)  23 OCT 2015 10:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.14)  23 OCT 2015 11:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1737,7 +1737,7 @@ File: network_of_cells.png Graphic file (type png)
 Package pdftex.def Info: network_of_cells.png used on input line 258.
 (pdftex.def)             Requested size: 142.25964pt x 142.26208pt.
 
-Overfull \hbox (160.19826pt too wide) detected at line 258
+Overfull \hbox (116.95006pt too wide) detected at line 258
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
@@ -1871,10 +1871,12 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [25
 
 ]
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 334.
 \flashmovie@n@config=\count215
 \flashmovie@n@content=\count216
 \flashmovie@n@settings=\count217
-<<dynamics.flv>>
+<<regular_relaxation.flv>>
 Underfull \hbox (badness 10000) detected at line 334
 []
  []
@@ -1882,23 +1884,18 @@ Underfull \hbox (badness 10000) detected at line 334
 \flashmovie@n@config=\count218
 \flashmovie@n@content=\count219
 \flashmovie@n@settings=\count220
-
+<<celldivision.flv>>
 Underfull \hbox (badness 10000) detected at line 334
 []
  []
 
 
-Overfull \hbox (31.86641pt too wide) in paragraph at lines 334--334
-[][]  
- []
-
-
-Overfull \hbox (116.95006pt too wide) detected at line 334
+Overfull \hbox (160.19826pt too wide) detected at line 334
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
 
-Overfull \vbox (38.47794pt too high) detected at line 334
+Overfull \vbox (4.53215pt too high) detected at line 334
  []
 
 
@@ -1915,161 +1912,6 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [26
 
 ]
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (873.37694pt too wide) detected at line 352
-[] [][][][]\OT1/phv/m/n/10.95 Rectangular tissue with regular hexagonal cells (
-all the edges of the cells have the same length).[][][][][][][][][][][]Non-boun
-dary periodic conditions (the tissue is not \OT1/phv/m/sl/10.95 infinite\OT1/ph
-v/m/n/10.95 ).[][][][][][][][][][]Line tension of boundary cells ($\OT1/cmr/m/n
-/10.95 ^^C[]$\OT1/phv/m/n/10.95 ) is half the value of the other cells[].[][][]
-[][][][][] 
- []
-
-
 Overfull \hbox (4.58401pt too wide) has occurred while \output is active
   [] [][][][][][] [][][][][] [] [][][] [][][][][][][][] [][][][][][][][][][][][
 ][] [][][] [][][] []  
@@ -2083,161 +1925,6 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [27
 
 ]
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (873.37694pt too wide) detected at line 352
-[] [][][][]\OT1/phv/m/n/10.95 Rectangular tissue with regular hexagonal cells (
-all the edges of the cells have the same length).[][][][][][][][][][][][]Non-bo
-undary periodic conditions (the tissue is not \OT1/phv/m/sl/10.95 infinite\OT1/
-phv/m/n/10.95 ).[][][][][][][][][][][]Line tension of boundary cells ($\OT1/cmr
-/m/n/10.95 ^^C[]$\OT1/phv/m/n/10.95 ) is half the value of the other cells[].[]
-[][][][][][][] 
- []
-
-
 Overfull \hbox (4.58401pt too wide) has occurred while \output is active
   [] [][][][][][] [][][][][] [] [][][] [][][][][][][][] [][][][][][][][][][][][
 ][] [][][] [][][] []  
@@ -2251,161 +1938,6 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [28
 
 ]
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (873.37694pt too wide) detected at line 352
-[] [][][][]\OT1/phv/m/n/10.95 Rectangular tissue with regular hexagonal cells (
-all the edges of the cells have the same length).[][][][][][][][][][][][]Non-bo
-undary periodic conditions (the tissue is not \OT1/phv/m/sl/10.95 infinite\OT1/
-phv/m/n/10.95 ).[][][][][][][][][][][][]Line tension of boundary cells ($\OT1/c
-mr/m/n/10.95 ^^C[]$\OT1/phv/m/n/10.95 ) is half the value of the other cells[].
-[][][][][][][][][] 
- []
-
-
 Overfull \hbox (4.58401pt too wide) has occurred while \output is active
   [] [][][][][][] [][][][][] [] [][][] [][][][][][][][] [][][][][][][][][][][][
 ][] [][][] [][][] []  
@@ -2422,18 +1954,14 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 \flashmovie@n@config=\count221
 \flashmovie@n@content=\count222
 \flashmovie@n@settings=\count223
-<<regular_relaxation.flv>>
-Underfull \hbox (badness 10000) detected at line 377
+
+Underfull \hbox (badness 10000) detected at line 374
 []
  []
 
 
-Overfull \hbox (116.95006pt too wide) detected at line 377
+Overfull \hbox (116.95006pt too wide) detected at line 374
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
- []
-
-
-Overfull \vbox (19.32626pt too high) detected at line 377
  []
 
 
@@ -2454,12 +1982,12 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 \flashmovie@n@content=\count225
 \flashmovie@n@settings=\count226
 
-Underfull \hbox (badness 10000) detected at line 400
+Underfull \hbox (badness 10000) detected at line 396
 []
  []
 
 
-Overfull \hbox (32.74547pt too wide) in paragraph at lines 400--400
+Overfull \hbox (32.74547pt too wide) in paragraph at lines 396--396
 \OML/cmm/m/it/10.95 r\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t [] \OT1/cmr/m/n/
 10.95 +  []^^A\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 ) =  []2\OML/cmm/m/it/10.
 95 r\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 ) [] \OMS/cmsy/
@@ -2469,12 +1997,8 @@ cmr/m/n/10.95 ) +
  []
 
 
-Overfull \hbox (116.95006pt too wide) detected at line 400
+Overfull \hbox (116.95006pt too wide) detected at line 396
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
- []
-
-
-Overfull \vbox (19.32626pt too high) detected at line 400
  []
 
 
@@ -2495,17 +2019,13 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 \flashmovie@n@content=\count228
 \flashmovie@n@settings=\count229
 
-Underfull \hbox (badness 10000) detected at line 423
+Underfull \hbox (badness 10000) detected at line 418
 []
  []
 
 
-Overfull \hbox (116.95006pt too wide) detected at line 423
+Overfull \hbox (116.95006pt too wide) detected at line 418
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
- []
-
-
-Overfull \vbox (19.32626pt too high) detected at line 423
  []
 
 
@@ -2526,14 +2046,14 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 \flashmovie@n@content=\count231
 \flashmovie@n@settings=\count232
 
-Underfull \hbox (badness 10000) detected at line 444
+Underfull \hbox (badness 10000) detected at line 438
 []
  []
 
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.444 }
+l.438 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2544,7 +2064,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.444 }
+l.438 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2556,7 +2076,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.444 }
+l.438 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2567,7 +2087,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.444 }
+l.438 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2579,7 +2099,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.444 }
+l.438 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2590,7 +2110,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.444 }
+l.438 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2602,7 +2122,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.444 }
+l.438 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2613,7 +2133,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.444 }
+l.438 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2625,7 +2145,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.444 }
+l.438 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2636,7 +2156,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.444 }
+l.438 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2648,7 +2168,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.444 }
+l.438 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2659,7 +2179,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.444 }
+l.438 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2671,7 +2191,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.444 }
+l.438 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2682,7 +2202,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.444 }
+l.438 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2694,7 +2214,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.444 }
+l.438 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2705,7 +2225,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.444 }
+l.438 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2715,7 +2235,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Overfull \hbox (116.95006pt too wide) detected at line 444
+Overfull \hbox (116.95006pt too wide) detected at line 438
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
@@ -2734,11 +2254,11 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 ]
 LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <10.95> not available
-(Font)              Font shape `OT1/phv/b/it' tried instead on input line 459.
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 453.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10.95> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 459.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 453.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 459.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 453.
 
 Overfull \hbox (4.58401pt too wide) has occurred while \output is active
   [] [][][][][][] [][][][][] [] [][][] [][][][][][][][] [][][][][][][][][][][][
@@ -2769,7 +2289,7 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.483 }
+l.477 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2780,7 +2300,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.483 }
+l.477 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2792,7 +2312,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.483 }
+l.477 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2803,7 +2323,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.483 }
+l.477 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2815,7 +2335,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.483 }
+l.477 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2826,7 +2346,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.483 }
+l.477 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2838,7 +2358,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.483 }
+l.477 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2849,7 +2369,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.483 }
+l.477 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2861,7 +2381,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.483 }
+l.477 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2872,7 +2392,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.483 }
+l.477 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2884,7 +2404,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.483 }
+l.477 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2895,7 +2415,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.483 }
+l.477 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2907,7 +2427,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.483 }
+l.477 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2918,7 +2438,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.483 }
+l.477 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2930,7 +2450,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.483 }
+l.477 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2941,7 +2461,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.483 }
+l.477 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2955,7 +2475,7 @@ Normal \count register pool exhausted, switching to extended pool.
 \flashmovie@n@content=\count277
 \flashmovie@n@settings=\count278
 
-Underfull \hbox (badness 10000) detected at line 483
+Underfull \hbox (badness 10000) detected at line 477
 []
  []
 
@@ -2963,17 +2483,13 @@ Underfull \hbox (badness 10000) detected at line 483
 \flashmovie@n@content=\count280
 \flashmovie@n@settings=\count281
 <<soft_relaxation.flv>>
-Underfull \hbox (badness 10000) detected at line 483
+Underfull \hbox (badness 10000) detected at line 477
 []
  []
 
 
-Overfull \hbox (205.72198pt too wide) detected at line 483
+Overfull \hbox (160.19826pt too wide) detected at line 477
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
- []
-
-
-Overfull \vbox (1.37326pt too high) detected at line 483
  []
 
 
@@ -2993,7 +2509,7 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 File: levelplot_reg_relaxation.png Graphic file (type png)
 
 <use levelplot_reg_relaxation.png>
-Package pdftex.def Info: levelplot_reg_relaxation.png used on input line 493.
+Package pdftex.def Info: levelplot_reg_relaxation.png used on input line 487.
 (pdftex.def)             Requested size: 284.52756pt x 189.69504pt.
 
 Overfull \hbox (4.58401pt too wide) has occurred while \output is active
@@ -3012,13 +2528,13 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 \flashmovie@n@config=\count282
 \flashmovie@n@content=\count283
 \flashmovie@n@settings=\count284
-<<celldivision.flv>>
-Underfull \hbox (badness 10000) detected at line 532
+
+Underfull \hbox (badness 10000) detected at line 526
 []
  []
 
 
-Overfull \hbox (116.95006pt too wide) detected at line 532
+Overfull \hbox (116.95006pt too wide) detected at line 526
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
@@ -3035,13 +2551,13 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [38
 
-] <cellgrowth.png, id=2943, 936.49875pt x 421.575pt>
+] <cellgrowth.png, id=2941, 936.49875pt x 421.575pt>
 File: cellgrowth.png Graphic file (type png)
  <use cellgrowth.png>
-Package pdftex.def Info: cellgrowth.png used on input line 556.
+Package pdftex.def Info: cellgrowth.png used on input line 550.
 (pdftex.def)             Requested size: 170.71652pt x 76.84512pt.
 
-Overfull \hbox (116.95006pt too wide) detected at line 556
+Overfull \hbox (116.95006pt too wide) detected at line 550
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
@@ -3061,10 +2577,10 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
  <./cellgrowth.png>]
 File: cellgrowth.png Graphic file (type png)
  <use cellgrowth.png>
-Package pdftex.def Info: cellgrowth.png used on input line 556.
+Package pdftex.def Info: cellgrowth.png used on input line 550.
 (pdftex.def)             Requested size: 170.71652pt x 76.84512pt.
 
-Overfull \hbox (116.95006pt too wide) detected at line 556
+Overfull \hbox (116.95006pt too wide) detected at line 550
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
@@ -3084,10 +2600,10 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 ]
 File: cellgrowth.png Graphic file (type png)
  <use cellgrowth.png>
-Package pdftex.def Info: cellgrowth.png used on input line 577.
+Package pdftex.def Info: cellgrowth.png used on input line 571.
 (pdftex.def)             Requested size: 170.71652pt x 76.84512pt.
 
-Overfull \hbox (116.95006pt too wide) detected at line 577
+Overfull \hbox (116.95006pt too wide) detected at line 571
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
@@ -3104,14 +2620,14 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [41
 
-] <celldivision.png, id=3152, 934.49126pt x 426.59375pt>
+] <celldivision.png, id=3150, 934.49126pt x 426.59375pt>
 File: celldivision.png Graphic file (type png)
 
 <use celldivision.png>
-Package pdftex.def Info: celldivision.png used on input line 599.
+Package pdftex.def Info: celldivision.png used on input line 593.
 (pdftex.def)             Requested size: 170.71652pt x 77.92918pt.
 
-Overfull \hbox (116.95006pt too wide) detected at line 599
+Overfull \hbox (116.95006pt too wide) detected at line 593
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
@@ -3131,10 +2647,10 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
  <./celldivision.png>]
 File: celldivision.png Graphic file (type png)
  <use celldivision.png>
-Package pdftex.def Info: celldivision.png used on input line 620.
+Package pdftex.def Info: celldivision.png used on input line 614.
 (pdftex.def)             Requested size: 170.71652pt x 77.92918pt.
 
-Overfull \hbox (116.95006pt too wide) detected at line 620
+Overfull \hbox (116.95006pt too wide) detected at line 614
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
@@ -3154,10 +2670,10 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 ]
 File: celldivision.png Graphic file (type png)
  <use celldivision.png>
-Package pdftex.def Info: celldivision.png used on input line 642.
+Package pdftex.def Info: celldivision.png used on input line 636.
 (pdftex.def)             Requested size: 170.71652pt x 77.92918pt.
 
-Overfull \hbox (116.95006pt too wide) detected at line 642
+Overfull \hbox (116.95006pt too wide) detected at line 636
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
@@ -3177,10 +2693,10 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 ]
 File: celldivision.png Graphic file (type png)
  <use celldivision.png>
-Package pdftex.def Info: celldivision.png used on input line 664.
+Package pdftex.def Info: celldivision.png used on input line 658.
 (pdftex.def)             Requested size: 170.71652pt x 77.92918pt.
 
-Overfull \hbox (116.95006pt too wide) detected at line 664
+Overfull \hbox (116.95006pt too wide) detected at line 658
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
@@ -3200,10 +2716,10 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 ]
 File: celldivision.png Graphic file (type png)
  <use celldivision.png>
-Package pdftex.def Info: celldivision.png used on input line 686.
+Package pdftex.def Info: celldivision.png used on input line 680.
 (pdftex.def)             Requested size: 170.71652pt x 77.92918pt.
 
-Overfull \hbox (116.95006pt too wide) detected at line 686
+Overfull \hbox (116.95006pt too wide) detected at line 680
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
@@ -3220,13 +2736,13 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [46
 
-] <timeseries.png, id=3498, 954.56625pt x 616.3025pt>
+] <timeseries.png, id=3496, 954.56625pt x 616.3025pt>
 File: timeseries.png Graphic file (type png)
  <use timeseries.png>
-Package pdftex.def Info: timeseries.png used on input line 708.
+Package pdftex.def Info: timeseries.png used on input line 702.
 (pdftex.def)             Requested size: 170.71652pt x 110.21495pt.
 
-Overfull \hbox (116.95006pt too wide) detected at line 708
+Overfull \hbox (116.95006pt too wide) detected at line 702
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
@@ -3247,7 +2763,7 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.729 }
+l.723 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3258,7 +2774,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.729 }
+l.723 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -3270,7 +2786,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.729 }
+l.723 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3281,7 +2797,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.729 }
+l.723 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -3293,7 +2809,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.729 }
+l.723 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3304,7 +2820,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.729 }
+l.723 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -3316,7 +2832,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.729 }
+l.723 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3327,7 +2843,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.729 }
+l.723 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -3339,7 +2855,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.729 }
+l.723 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3350,7 +2866,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.729 }
+l.723 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -3362,7 +2878,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.729 }
+l.723 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3373,7 +2889,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.729 }
+l.723 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -3385,7 +2901,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.729 }
+l.723 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3396,7 +2912,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.729 }
+l.723 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -3408,7 +2924,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.729 }
+l.723 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3419,7 +2935,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.729 }
+l.723 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -3432,7 +2948,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 \flashmovie@n@content=\count286
 \flashmovie@n@settings=\count287
 <<shapedistribution1.flv>>
-Underfull \hbox (badness 10000) detected at line 729
+Underfull \hbox (badness 10000) detected at line 723
 []
  []
 
@@ -3440,12 +2956,12 @@ Underfull \hbox (badness 10000) detected at line 729
 \flashmovie@n@content=\count289
 \flashmovie@n@settings=\count290
 <<shapedistribution2.flv>>
-Underfull \hbox (badness 10000) detected at line 729
+Underfull \hbox (badness 10000) detected at line 723
 []
  []
 
 
-Overfull \hbox (205.72198pt too wide) detected at line 729
+Overfull \hbox (205.72198pt too wide) detected at line 723
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
@@ -3462,11 +2978,11 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 [48
 
-] <levelplot_mean_cellshape.png, id=3650, 433.62pt x 289.08pt>
+] <levelplot_mean_cellshape.png, id=3648, 433.62pt x 289.08pt>
 File: levelplot_mean_cellshape.png Graphic file (type png)
 
 <use levelplot_mean_cellshape.png>
-Package pdftex.def Info: levelplot_mean_cellshape.png used on input line 739.
+Package pdftex.def Info: levelplot_mean_cellshape.png used on input line 733.
 (pdftex.def)             Requested size: 284.52756pt x 189.69504pt.
 
 Overfull \hbox (4.58401pt too wide) has occurred while \output is active
@@ -3482,11 +2998,11 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 [49
 
  <./levelplot_mean_cellshape.png (PNG copy)>]
-<levelplot_stdev_cellshape.png, id=3720, 433.62pt x 289.08pt>
+<levelplot_stdev_cellshape.png, id=3718, 433.62pt x 289.08pt>
 File: levelplot_stdev_cellshape.png Graphic file (type png)
 
 <use levelplot_stdev_cellshape.png>
-Package pdftex.def Info: levelplot_stdev_cellshape.png used on input line 749.
+Package pdftex.def Info: levelplot_stdev_cellshape.png used on input line 743.
 (pdftex.def)             Requested size: 284.52756pt x 189.69504pt.
 
 Overfull \hbox (4.58401pt too wide) has occurred while \output is active
@@ -3568,7 +3084,7 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 ]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 804.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 798.
 
 Overfull \hbox (4.58401pt too wide) has occurred while \output is active
   [] [][][][][][] [][][][][] [] [][][] [][][][][][][][] [][][][][][][][][][][][
@@ -3787,21 +3303,21 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 \tf@snm=\write9
 \openout9 = `WagnerGroupOct2015.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 857.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 857.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 851.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 851.
  (./WagnerGroupOct2015.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 857.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 857.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 851.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 851.
 Package rerunfilecheck Info: File `WagnerGroupOct2015.out' has not changed.
 (rerunfilecheck)             Checksum: E80ABE038C22AD930BB416B320AFE62D;3357.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 857.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 851.
  ) 
 Here is how much of TeX's memory you used:
- 29878 strings out of 495028
- 525599 string characters out of 6181497
- 731394 words of memory out of 5000000
+ 29879 strings out of 495028
+ 525572 string characters out of 6181497
+ 731345 words of memory out of 5000000
  32232 multiletter control sequences out of 15000+600000
- 38566 words of font info for 89 fonts, out of 8000000 for 9000
+ 40199 words of font info for 91 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  49i,20n,57p,3243b,1240s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -3818,10 +3334,10 @@ cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 exlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/helvetic/uhvro8a.pfb>
-Output written on WagnerGroupOct2015.pdf (71 pages, 13520640 bytes).
+Output written on WagnerGroupOct2015.pdf (71 pages, 11625793 bytes).
 PDF statistics:
- 5339 PDF objects out of 6186 (max. 8388607)
- 5107 compressed objects within 52 object streams
+ 5337 PDF objects out of 6186 (max. 8388607)
+ 5106 compressed objects within 52 object streams
  170 named destinations out of 1000 (max. 500000)
- 619 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 611 words of extra memory for PDF output out of 10000 (max. 10000000)
 
