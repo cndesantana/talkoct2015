@@ -112,7 +112,7 @@
 }
 
 \subsection{Real data}
-\frame{\frametitle{Tissue growth: cells as polygons, tissues as networks}
+\frame{\frametitle{Tissue growth: cells as polygons, tissues as networks\footnotemark}
 \setbeamercolor{uppercol}{fg=black,bg=pink}
 \setbeamercolor{lowercol}{fg=black,bg=pink}
 \begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
@@ -120,9 +120,10 @@
 \centering \hspace{4cm}\flashmovie[auto=1,loop=1,controlbar=1,engine=flv-player,width=6cm,height=6cm]{Animation.flv}
 \end{minipage}
 \end{beamerboxesrounded}
+\tiny{\footnotetext[1]{Canine kidney cells (videl kindly offered by Anastasia Trushko (UNIGE))}}
 }
 
-\subsection{General Assumptions}
+\subsection{Theoretical approach}
 %%tissue growth remarks
 \frame{\frametitle{Tissue, cells, Edges, and Vertices}
 \setbeamercolor{uppercol}{fg=black,bg=pink}
@@ -147,10 +148,9 @@
 \tiny{\footnotetext[1]{Farhadifar et al. \emph{The influence of cell mechanics, cell-cell interactions, and proliferation on epithelial packing.} Current Biology 17.24 (2007): 2095-2104.}}
 }
 
-\section{Different cell shapes}
 \subsection{Different Kind of tissues}
 %%tissue growth remarks
-\frame{\frametitle{Different kind of tissues}
+\frame{\frametitle{Cell shapes and Different kind of tissues}
 \setbeamercolor{uppercol}{fg=black,bg=pink}
 \setbeamercolor{lowercol}{fg=black,bg=pink}
 \begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
@@ -171,7 +171,7 @@
 
 \subsection{Different Developmental stages}
 %%tissue growth remarks
-\frame{\frametitle{Different Developmental stages (Drosophila wings)}
+\frame{\frametitle{Cell shapes and Different Developmental stages (Drosophila wings)}
 \setbeamercolor{uppercol}{fg=black,bg=pink}
 \setbeamercolor{lowercol}{fg=black,bg=pink}
 \textbf{(B)} pupal stage \hspace{3.2cm}\textbf{(C)} before hair formation 
@@ -243,13 +243,13 @@
 \end{align*}
 %$F = \sum_{\alpha}{\frac{K_{\alpha}}{2}(A_{\alpha} - A_{\alpha}^{(0)})^{2} ~ + ~ \sum_{(i,j)}{\Lambda_{ij}L_{ij}} ~ + ~  \sum_{\alpha}{\frac{\Gamma_{\alpha}}{2}L_{\alpha}^{2}}}$
 \begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
-\begin{minipage}[t]{6.1cm}
+\begin{minipage}[t]{8cm}
 \begin{columns}
     \begin{column}{\textwidth}
        \hspace{0.4cm} \includegraphics[height=5cm,width=5cm]{network_of_cells.png}
     \end{column}
     \begin{column}{0.8\textwidth}
-       We keep the physical properties of the cells fixed during the simulation. So, in order to satisfy the \textbf{Minimal Energy's Assumption} the positions of the vertices need to change.
+       The physical properties of the cells are static. So, in order to satisfy the \textbf{Minimal Energy's Assumption} the positions of the vertices change for different combination of parameters and different events (like the appearance of new cells).
     \end{column}
 \end{columns}
 \end{minipage}
@@ -280,6 +280,35 @@
 \tiny{\footnotetext[1]{Farhadifar et al. \emph{The influence of cell mechanics, cell-cell interactions, and proliferation on epithelial packing.} Current Biology 17.24 (2007): 2095-2104.}}
 }
 
+\section{Question}
+%%tissue growth remarks
+\frame{\frametitle{Robustness question}
+\setbeamercolor{uppercol}{fg=black,bg=pink}
+\setbeamercolor{lowercol}{fg=black,bg=pink}
+\begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
+\begin{minipage}[t]{10cm}
+How do mechanical properties of cells (Cells elasticity, Cells contractility, Edges line tension) affect the growth of tissues? 
+\end{minipage}
+\end{beamerboxesrounded}
+}
+
+\frame{\frametitle{Strategy to answer the question}
+\setbeamercolor{uppercol}{fg=black,bg=pink}
+\setbeamercolor{lowercol}{fg=black,bg=pink}
+To explore a broad range of mechanical parameters (at high resolution) and study the effects of such parameters in the characteristics (\textbf{Phenotype}) of simulated cells and tissues.
+\begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
+\begin{minipage}[t]{10cm}
+\textbf{Potential phenotypes to study:}
+\begin{itemize}
+\item < 1-| alert@1 > Cells shape distribution.
+\item < 2-| alert@2 > Cells area distribution.
+\item < 3-| alert@3 > Cells perimeter distribution.
+\item < 4-| alert@4 > Cells \emph{regularness} distribution.
+\item < 5-| alert@5 > Edges angle distribution.
+\end{itemize}
+\end{minipage}
+\end{beamerboxesrounded}
+}
 
 \section{Model Dynamics}
 \subsection{Sequence of Events}
@@ -291,13 +320,12 @@
 \begin{minipage}[t]{6.1cm}
 \begin{columns}
     \begin{column}{\textwidth}
+        \textbf{1 - Relaxation} - Vertices change their position to guarantee the force balance to be equal to zero.
         \hspace{4cm}\flashmovie[auto=1,loop=1,controlbar=1,engine=flv-player,width=6cm,height=6cm]{dynamics.flv}
     \end{column}
     \begin{column}{0.8\textwidth}
-        \begin{enumerate}
-        \item < 1-| alert@1 > \textbf{Relaxation} (Vertices change their position to guarantee the force balance to be equal to zero).
-        \item < 2-| alert@1 > \textbf{Cell Proliferation} (cells growth and cells division).
-        \end{enumerate}
+        \textbf{2 - Cell Proliferation} - cells growth and cells division.
+        \hspace{4cm}\flashmovie[auto=1,loop=1,controlbar=1,engine=flv-player,width=6cm,height=6cm]{dynamics.flv}
     \end{column}
 \end{columns}
 \end{minipage}
@@ -306,6 +334,25 @@
 }
 
 
+\frame{\frametitle{Initial conditions and constrains}
+\setbeamercolor{uppercol}{fg=black,bg=pink}
+\setbeamercolor{lowercol}{fg=black,bg=pink}
+\begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
+\begin{minipage}[t]{6.1cm}
+\begin{columns}
+        \begin{itemize}
+        \item < 1-| alert@1 > Rectangular tissue with regular hexagonal cells (all the edges of the cells have the same length).
+        \item < 2-| alert@2 > Non-boundary periodic conditions (the tissue is not \emph{infinite}).
+        \item < 3-| alert@3 > Line tension of boundary cells ($\Lambda_{b}$) is half the value of the other cells\footnotemark.
+        \end{itemize}
+\end{columns}
+\end{minipage}
+\end{beamerboxesrounded}
+%\tiny{\footnotetext[1]{Farhadifar et al. \emph{The influence of cell mechanics, cell-cell interactions, and proliferation on epithelial packing.} Current Biology 17.24 (2007): 2095-2104.}}
+}
+
+
+\section{Relaxation}
 \subsection{Relaxation}
 %%tissue growth remarks
 \frame{\frametitle{Relaxation\footnotemark}
@@ -461,6 +508,7 @@ We define \textbf{\emph{regularness}} as a dimensionless measure to say how regu
 
 %%%%%%%% CELL DIVISION
 
+\section{Cell Proliferation}
 \subsection{Cell Proliferation}
 %%tissue growth remarks
 \frame{\frametitle{Cell Proliferation}
@@ -659,7 +707,6 @@ We define \textbf{\emph{regularness}} as a dimensionless measure to say how regu
 \end{beamerboxesrounded}
 }
 
-\section{Results}
 \subsection{Results}
 %%tissue growth remarks
 \frame{\frametitle{Change in shapes distribution}
@@ -683,11 +730,21 @@ We define \textbf{\emph{regularness}} as a dimensionless measure to say how regu
 
 
 %%tissue growth remarks
-\frame{\frametitle{Phase space: Mean shape of cells (10 Repl.)}
+\frame{\frametitle{Phase space: Mean shape of cells (5 Repl.)}
 \setbeamercolor{uppercol}{fg=black,bg=pink}
 \setbeamercolor{lowercol}{fg=black,bg=pink}
 \begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
 \centering \hspace{4cm} \includegraphics[width=10cm]{levelplot_mean_cellshape.png}
+\end{beamerboxesrounded}
+}
+
+
+%%tissue growth remarks
+\frame{\frametitle{Phase space: Std. Dev. of shape of cells (5 Repl.)}
+\setbeamercolor{uppercol}{fg=black,bg=pink}
+\setbeamercolor{lowercol}{fg=black,bg=pink}
+\begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
+\centering \hspace{4cm} \includegraphics[width=10cm]{levelplot_stdev_cellshape.png}
 \end{beamerboxesrounded}
 }
 
@@ -746,7 +803,26 @@ We define \textbf{\emph{regularness}} as a dimensionless measure to say how regu
 \end{beamerboxesrounded}
 }
 
-\section{Next Steps}
+\section{Future}
+\subsection{Very Next Steps}
+%%tissue growth remarks
+\frame{\frametitle{Very Next steps}
+\setbeamercolor{uppercol}{fg=black,bg=pink}
+\setbeamercolor{lowercol}{fg=black,bg=pink}
+\begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
+\begin{minipage}[t]{10cm}
+    \begin{enumerate}
+    \item < 1-| alert@1 > Increase the number of replicates.
+    \item < 2-| alert@2 > Explore the parameters at a better \emph{resolution} (varying their values by $10^{-3}$, instead of by $10^{-2}$).
+    \item < 3-| alert@3 > Study the Phase Space of Area of cells.
+    \item < 4-| alert@4 > Study the Phase Space of \textbf{Area} of cells.
+    \item < 5-| alert@5 > Study the Phase Space of \textbf{Perimeter} of cells.
+    \item < 6-| alert@6 > Study the Phase Space of \textbf{Direction of edges} of cells.
+    \end{enumerate}
+\end{minipage}
+\end{beamerboxesrounded}
+}
+
 \subsection{Next Steps}
 %%tissue growth remarks
 \frame{\frametitle{Next steps}
@@ -755,22 +831,21 @@ We define \textbf{\emph{regularness}} as a dimensionless measure to say how regu
 \begin{beamerboxesrounded}[upper=upperco,lower=lowercol,shadow=true]{}
 \begin{minipage}[t]{10cm}
     \begin{enumerate}
-    \item < 1-| alert@1 > Increase the number of replicates.
-    \item < 2-| alert@2 > Change initial conditions of the tissues.
-    \item < 3-| alert@3 > Change choice of cells to proliferate.
-    \item < 4-| alert@4 > Change the way cells are divided.
-    \item < 5-| alert@5 > Change the shape of the tissue.
+    \item < 1-| alert@1 > Change initial organization of cells in the tissues (starting from non-regular tissues).
+    \item < 2-| alert@2 > Change the initial shape of the tissues (starting from ring tissues).
+    \item < 3-| alert@3 > Change choice of cells to proliferate (choose the eldest cells with higher probability).
+    \item < 4-| alert@4 > Change the way cells are divided (the splitting edge $e_{i}$ depends on the number of edges of neighbour cells).
+    \item < 5-| alert@5 > Study 3D tissues.
     \end{enumerate}
 \end{minipage}
 \end{beamerboxesrounded}
 }
 
-
 \section{Acknowledgments}
 \frame{\frametitle{Thank you!}
 \begin{itemize}
 \item SystemsX Initiative.
-\item \textbf{\emph{EpiphysX}} members: Andreas Wagner (UZH), Aziza Merzouki, Orestis Malaspinas, Bastien Chopard, Aur\'elien Roux, Michel Milinkovitch, Marcos Gonzalez-Gaitan (UNIGE) 
+\item \textbf{\emph{EpiphysX}} members: Andreas Wagner (UZH), Aziza Merzouki, Orestis Malaspinas, Bastien Chopard, Aur\'elien Roux, Michel Milinkovitch, Marcos Gonzalez-Gaitan, Anastasia Trushko, Antonio Martins (UNIGE) 
 \item Chopard's Group members (UNIGE).
 \item Wagner's Group members (UZH).
 \item You, for the attention and patience.
