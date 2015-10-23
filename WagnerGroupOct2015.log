@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.14)  23 OCT 2015 02:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.14)  23 OCT 2015 02:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2396,7 +2396,7 @@ Overfull \hbox (205.72198pt too wide) detected at line 436
  []
 
 
-Overfull \vbox (12.23578pt too high) detected at line 436
+Overfull \vbox (1.37326pt too high) detected at line 436
  []
 
 
@@ -2670,7 +2670,7 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.684 }
+l.682 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2681,7 +2681,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.684 }
+l.682 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2693,7 +2693,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.684 }
+l.682 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2704,7 +2704,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.684 }
+l.682 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2716,7 +2716,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.684 }
+l.682 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2727,7 +2727,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.684 }
+l.682 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2739,7 +2739,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.684 }
+l.682 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2750,7 +2750,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.684 }
+l.682 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2762,7 +2762,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.684 }
+l.682 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2773,7 +2773,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.684 }
+l.682 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2785,7 +2785,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.684 }
+l.682 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2796,7 +2796,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.684 }
+l.682 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2808,7 +2808,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.684 }
+l.682 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2819,7 +2819,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.684 }
+l.682 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2831,7 +2831,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \Lstackgap ->\dimexpr .5pt+1.5\LMpt 
                                     
-l.684 }
+l.682 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2842,7 +2842,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.684 }
+l.682 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2855,7 +2855,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 \flashmovie@n@content=\count286
 \flashmovie@n@settings=\count287
 <<shapedistribution1.flv>>
-Underfull \hbox (badness 10000) detected at line 684
+Underfull \hbox (badness 10000) detected at line 682
 []
  []
 
@@ -2863,12 +2863,12 @@ Underfull \hbox (badness 10000) detected at line 684
 \flashmovie@n@content=\count289
 \flashmovie@n@settings=\count290
 <<shapedistribution2.flv>>
-Underfull \hbox (badness 10000) detected at line 684
+Underfull \hbox (badness 10000) detected at line 682
 []
  []
 
 
-Overfull \hbox (205.72198pt too wide) detected at line 684
+Overfull \hbox (205.72198pt too wide) detected at line 682
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
@@ -2889,7 +2889,7 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 File: levelplot_mean_cellshape.png Graphic file (type png)
 
 <use levelplot_mean_cellshape.png>
-Package pdftex.def Info: levelplot_mean_cellshape.png used on input line 694.
+Package pdftex.def Info: levelplot_mean_cellshape.png used on input line 692.
 (pdftex.def)             Requested size: 284.52756pt x 189.69504pt.
 
 Overfull \hbox (7.92526pt too wide) has occurred while \output is active
@@ -2971,7 +2971,7 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 
 ]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 749.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 747.
 
 Overfull \hbox (7.92526pt too wide) has occurred while \output is active
   [] [][][][] [][][] [][][][][] [][][][][][][][][][][][][][][][][][] [][][] [][
@@ -3112,14 +3112,14 @@ Overfull \hbox (25.39131pt too wide) has occurred while \output is active
 \tf@snm=\write9
 \openout9 = `WagnerGroupOct2015.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 784.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 784.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 782.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 782.
  (./WagnerGroupOct2015.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 784.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 784.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 782.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 782.
 Package rerunfilecheck Info: File `WagnerGroupOct2015.out' has not changed.
 (rerunfilecheck)             Checksum: 81DCE67FF6891A1325DA3930C85B6788;3154.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 784.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 782.
  ) 
 Here is how much of TeX's memory you used:
  29823 strings out of 495028
@@ -3143,7 +3143,7 @@ cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 exlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/helvetic/uhvro8a.pfb>
-Output written on WagnerGroupOct2015.pdf (56 pages, 13369827 bytes).
+Output written on WagnerGroupOct2015.pdf (56 pages, 13369696 bytes).
 PDF statistics:
  4045 PDF objects out of 4296 (max. 8388607)
  3846 compressed objects within 39 object streams
